@@ -1,0 +1,90 @@
+clusterName,gene
+T regulatory cell,ENSG00000049768
+T regulatory cell,ENSG00000163599
+CD4+ T cell,ENSG00000113263
+CD4+ T cell,ENSG00000167286
+Innate lymphoid cell,ENSG00000009790
+Innate lymphoid cell,ENSG00000174718
+Innate lymphoid cell,ENSG00000186810
+CD8+ T cell,ENSG00000153563
+CD8+ T cell,ENSG00000105374
+CD8+ T cell,ENSG00000198851
+Natural killer cell,ENSG00000111796
+Natural killer cell,ENSG00000115523
+Plasmacytoid DC,ENSG00000166428
+Plasmacytoid DC,ENSG00000132465
+B cell,ENSG00000156738
+Plasma cell,ENSG00000170476
+Pulmonary neuroendocrine cell,ENSG00000134443
+Ionocyte,ENSG00000176009
+Ionocyte,ENSG00000162399
+Deuterosomal cell,ENSG00000164287
+Deuterosomal cell,ENSG00000165325
+Ciliated cell,ENSG00000188817
+Ciliated cell,ENSG00000179902
+Alveolar type 1 cell,ENSG00000182010
+Alveolar type 1 cell,ENSG00000136155
+Mesothelial cell,ENSG00000179914
+Mesothelial cell,ENSG00000105825
+Alveolar fibroblast 2,ENSG00000167779
+Alveolar fibroblast 2,ENSG00000077942
+Chondrocyte,ENSG00000170891
+Alveolar fibroblast 1,ENSG00000136546
+Alveolar fibroblast 1,ENSG00000077943
+Secondary crest myofibroblast,ENSG00000106819
+Secondary crest myofibroblast,ENSG00000198542
+Pericyte,ENSG00000131097
+Pericyte,ENSG00000171303
+Airway smooth muscle cell,ENSG00000175084
+Airway smooth muscle cell,ENSG00000114200
+Vascular smooth muscle cell,ENSG00000198523
+Vascular smooth muscle cell,ENSG00000189129
+Myoepithelial cell,ENSG00000104332
+Myoepithelial cell,ENSG00000186847
+Lymphatic endothelial cell,ENSG00000137077
+Systemic venous endothelial cell,ENSG00000130300
+Systemic venous endothelial cell,ENSG00000174059
+Venous endothelial cell,ENSG00000144837
+Venous endothelial cell,ENSG00000112936
+Arterial endothelial cell,ENSG00000155011
+Arterial endothelial cell,ENSG00000265107
+Capillary 1 cell,ENSG00000167434
+Capillary 1 cell,ENSG00000142748
+Capillary 2 cell,ENSG00000136160
+Capillary 2 cell,ENSG00000171243
+Alveolar macrophage,ENSG00000183019
+Alveolar macrophage,ENSG00000102575
+Interstitial macrophage,ENSG00000124491
+Classical DC subset 2,ENSG00000132514
+Classical DC subset 2,ENSG00000072694
+Classical DC subset 1,ENSG00000197992
+Classical DC subset 1,ENSG00000100079
+Mature DC subset,ENSG00000102962
+Neutrophil,ENSG00000162747
+Inflammatory monocyte,ENSG00000038427
+Inflammatory monocyte,ENSG00000143546
+Patrolling monocyte,ENSG00000028277
+Patrolling monocyte,ENSG00000175489
+Megakaryocyte/Platelet,ENSG00000163737
+Megakaryocyte/Platelet,ENSG00000101162
+Mast/Basophil,ENSG00000163751
+Tuft cell,ENSG00000134986
+Tuft cell,ENSG00000137709
+Tuft cell,ENSG00000169435
+Suprabasal cell,ENSG00000137975
+Suprabasal cell,ENSG00000206073
+Basal cell,ENSG00000171462
+Basal cell,ENSG00000171346
+SMG Basal/Duct cell,ENSG00000164379
+SMG Basal/Duct cell,ENSG00000137673
+Goblet cell,ENSG00000167653
+Goblet cell,ENSG00000263639
+Secretory cell,ENSG00000181458
+Secretory cell,ENSG00000134339
+Alveolar type 2 cell,ENSG00000131400
+Alveolar type 2 cell,ENSG00000188906
+Respiratory airway secretory cell,ENSG00000164265
+Respiratory airway secretory cell,ENSG00000168878
+Mucous cell,ENSG00000078898
+Serous cell,ENSG00000167419
+Serous cell,ENSG00000187908

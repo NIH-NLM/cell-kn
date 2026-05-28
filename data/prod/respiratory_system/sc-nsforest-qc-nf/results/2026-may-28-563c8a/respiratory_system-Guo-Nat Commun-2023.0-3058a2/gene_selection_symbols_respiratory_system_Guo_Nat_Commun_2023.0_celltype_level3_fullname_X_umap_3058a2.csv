@@ -1,0 +1,90 @@
+clusterName,gene
+T regulatory cell,FOXP3
+T regulatory cell,CTLA4
+CD4+ T cell,ITK
+CD4+ T cell,CD3D
+Innate lymphoid cell,TRAF3IP3
+Innate lymphoid cell,RESF1
+Innate lymphoid cell,CXCR3
+CD8+ T cell,CD8A
+CD8+ T cell,NKG7
+CD8+ T cell,CD3E
+Natural killer cell,KLRB1
+Natural killer cell,GNLY
+Plasmacytoid DC,PLD4
+Plasmacytoid DC,JCHAIN
+B cell,MS4A1
+Plasma cell,MZB1
+Pulmonary neuroendocrine cell,GRP
+Ionocyte,ASCL3
+Ionocyte,BSND
+Deuterosomal cell,CDC20B
+Deuterosomal cell,DEUP1
+Ciliated cell,SNTN
+Ciliated cell,CFAP276
+Alveolar type 1 cell,RTKN2
+Alveolar type 1 cell,SCEL
+Mesothelial cell,ITLN1
+Mesothelial cell,TFPI2
+Alveolar fibroblast 2,IGFBP6
+Alveolar fibroblast 2,FBLN1
+Chondrocyte,CYTL1
+Alveolar fibroblast 1,SCN7A
+Alveolar fibroblast 1,ITGA8
+Secondary crest myofibroblast,ASPN
+Secondary crest myofibroblast,ITGBL1
+Pericyte,HIGD1B
+Pericyte,KCNK3
+Airway smooth muscle cell,DES
+Airway smooth muscle cell,BCHE
+Vascular smooth muscle cell,PLN
+Vascular smooth muscle cell,PLAC9
+Myoepithelial cell,SFRP1
+Myoepithelial cell,KRT14
+Lymphatic endothelial cell,CCL21
+Systemic venous endothelial cell,PLVAP
+Systemic venous endothelial cell,CD34
+Venous endothelial cell,PLA1A
+Venous endothelial cell,C7
+Arterial endothelial cell,DKK2
+Arterial endothelial cell,GJA5
+Capillary 1 cell,CA4
+Capillary 1 cell,FCN3
+Capillary 2 cell,EDNRB
+Capillary 2 cell,SOSTDC1
+Alveolar macrophage,MCEMP1
+Alveolar macrophage,ACP5
+Interstitial macrophage,F13A1
+Classical DC subset 2,CLEC10A
+Classical DC subset 2,FCGR2B
+Classical DC subset 1,CLEC9A
+Classical DC subset 1,LGALS2
+Mature DC subset,CCL22
+Neutrophil,FCGR3B
+Inflammatory monocyte,VCAN
+Inflammatory monocyte,S100A8
+Patrolling monocyte,POU2F2
+Patrolling monocyte,LRRC25
+Megakaryocyte/Platelet,PF4
+Megakaryocyte/Platelet,TUBB1
+Mast/Basophil,CPA3
+Tuft cell,NREP
+Tuft cell,POU2F3
+Tuft cell,RASSF6
+Suprabasal cell,CLCA2
+Suprabasal cell,SERPINB4
+Basal cell,DLK2
+Basal cell,KRT15
+SMG Basal/Duct cell,FOXQ1
+SMG Basal/Duct cell,MMP7
+Goblet cell,PSCA
+Goblet cell,MSMB
+Secretory cell,TMEM45A
+Secretory cell,SAA2
+Alveolar type 2 cell,NAPSA
+Alveolar type 2 cell,LRRK2
+Respiratory airway secretory cell,SCGB3A2
+Respiratory airway secretory cell,SFTPB
+Mucous cell,BPIFB2
+Serous cell,LPO
+Serous cell,DMBT1

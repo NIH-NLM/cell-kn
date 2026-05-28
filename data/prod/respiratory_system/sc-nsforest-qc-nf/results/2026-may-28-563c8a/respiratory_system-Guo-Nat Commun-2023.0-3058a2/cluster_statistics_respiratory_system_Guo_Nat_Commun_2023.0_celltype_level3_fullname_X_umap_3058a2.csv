@@ -1,0 +1,49 @@
+cluster,n_cells,percentage
+Airway smooth muscle cell,485,0.15
+Alveolar fibroblast 1,5077,1.53
+Alveolar fibroblast 2,2537,0.76
+Alveolar macrophage,97466,29.33
+Alveolar type 1 cell,11815,3.56
+Alveolar type 2 cell,55756,16.78
+Arterial endothelial cell,3895,1.17
+B cell,3123,0.94
+Basal cell,12286,3.7
+CD4+ T cell,5629,1.69
+CD8+ T cell,3437,1.03
+Capillary 1 cell,13988,4.21
+Capillary 2 cell,6610,1.99
+Chondrocyte,5,0.0
+Ciliated cell,13217,3.98
+Classical DC subset 1,259,0.08
+Classical DC subset 2,2574,0.77
+Deuterosomal cell,192,0.06
+Goblet cell,2452,0.74
+Inflammatory monocyte,17902,5.39
+Innate lymphoid cell,14,0.0
+Interstitial macrophage,6150,1.85
+Ionocyte,158,0.05
+Lymphatic endothelial cell,3217,0.97
+Mast/Basophil,2843,0.86
+Mature DC subset,233,0.07
+Megakaryocyte/Platelet,35,0.01
+Mesothelial cell,105,0.03
+Mucous cell,721,0.22
+Myoepithelial cell,479,0.14
+Natural killer cell,8770,2.64
+Neutrophil,231,0.07
+Patrolling monocyte,2181,0.66
+Pericyte,2311,0.7
+Plasma cell,2147,0.65
+Plasmacytoid DC,231,0.07
+Pulmonary neuroendocrine cell,1151,0.35
+Respiratory airway secretory cell,4206,1.27
+SMG Basal/Duct cell,958,0.29
+Secondary crest myofibroblast,774,0.23
+Secretory cell,2681,0.81
+Serous cell,2944,0.89
+Suprabasal cell,19286,5.8
+Systemic venous endothelial cell,4362,1.31
+T regulatory cell,252,0.08
+Tuft cell,84,0.03
+Vascular smooth muscle cell,2579,0.78
+Venous endothelial cell,4527,1.36

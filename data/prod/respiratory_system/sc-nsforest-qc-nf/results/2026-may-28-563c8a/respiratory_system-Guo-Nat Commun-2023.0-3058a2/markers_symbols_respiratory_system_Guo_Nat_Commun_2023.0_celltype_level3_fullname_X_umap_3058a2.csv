@@ -1,0 +1,49 @@
+clusterName,NSForest_markers,f_score
+T regulatory cell,"['FOXP3', 'CTLA4']",0.6066176470588235
+CD4+ T cell,"['ITK', 'CD3D']",0.5490513772016934
+Innate lymphoid cell,"['TRAF3IP3', 'RESF1', 'CXCR3']",0.3846153846153846
+CD8+ T cell,"['CD8A', 'NKG7', 'CD3E']",0.8400440790031364
+Natural killer cell,"['KLRB1', 'GNLY']",0.8800762520940443
+Plasmacytoid DC,"['PLD4', 'JCHAIN']",0.7853810264385692
+B cell,['MS4A1'],0.8504123458806239
+Plasma cell,['MZB1'],0.8287632904308898
+Pulmonary neuroendocrine cell,['GRP'],0.9757575757575756
+Ionocyte,"['ASCL3', 'BSND']",0.9365079365079364
+Deuterosomal cell,"['CDC20B', 'DEUP1']",0.8680555555555556
+Ciliated cell,"['SNTN', 'CFAP276']",0.9479360028286042
+Alveolar type 1 cell,"['RTKN2', 'SCEL']",0.8753804657147807
+Mesothelial cell,"['ITLN1', 'TFPI2']",0.7228915662650602
+Alveolar fibroblast 2,"['IGFBP6', 'FBLN1']",0.829669639492526
+Chondrocyte,['CYTL1'],0.8823529411764706
+Alveolar fibroblast 1,"['SCN7A', 'ITGA8']",0.7897548921391838
+Secondary crest myofibroblast,"['ASPN', 'ITGBL1']",0.554520037278658
+Pericyte,"['HIGD1B', 'KCNK3']",0.8678640153944837
+Airway smooth muscle cell,"['DES', 'BCHE']",0.6442021803766105
+Vascular smooth muscle cell,"['PLN', 'PLAC9']",0.795131845841785
+Myoepithelial cell,"['SFRP1', 'KRT14']",0.8222066057624736
+Lymphatic endothelial cell,['CCL21'],0.9234907352062164
+Systemic venous endothelial cell,"['PLVAP', 'CD34']",0.7073755581279974
+Venous endothelial cell,"['PLA1A', 'C7']",0.7853839739216132
+Arterial endothelial cell,"['DKK2', 'GJA5']",0.8394102091513743
+Capillary 1 cell,"['CA4', 'FCN3']",0.8026220396326728
+Capillary 2 cell,"['EDNRB', 'SOSTDC1']",0.8513100638829738
+Alveolar macrophage,"['MCEMP1', 'ACP5']",0.9559305629273472
+Interstitial macrophage,['F13A1'],0.59389885476842
+Classical DC subset 2,"['CLEC10A', 'FCGR2B']",0.5657409416359297
+Classical DC subset 1,"['CLEC9A', 'LGALS2']",0.779976717112922
+Mature DC subset,['CCL22'],0.6379498364231189
+Neutrophil,['FCGR3B'],0.8227848101265823
+Inflammatory monocyte,"['VCAN', 'S100A8']",0.8080836845502525
+Patrolling monocyte,"['POU2F2', 'LRRC25']",0.4487519915029209
+Megakaryocyte/Platelet,"['PF4', 'TUBB1']",0.967741935483871
+Mast/Basophil,['CPA3'],0.9582937696296836
+Tuft cell,"['NREP', 'POU2F3', 'RASSF6']",0.7589285714285714
+Suprabasal cell,"['CLCA2', 'SERPINB4']",0.7551362293212964
+Basal cell,"['DLK2', 'KRT15']",0.8843715935241633
+SMG Basal/Duct cell,"['FOXQ1', 'MMP7']",0.6433007985803016
+Goblet cell,"['PSCA', 'MSMB']",0.7165677772706527
+Secretory cell,"['TMEM45A', 'SAA2']",0.6948451022199925
+Alveolar type 2 cell,"['NAPSA', 'LRRK2']",0.938751754596186
+Respiratory airway secretory cell,"['SCGB3A2', 'SFTPB']",0.8709885156166148
+Mucous cell,['BPIFB2'],0.9355194268393496
+Serous cell,"['LPO', 'DMBT1']",0.7703117015840573
