@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-05-09 13:28:04
+Log file: data/uberon_retina.log
+Command : python /Users/adeslatt/miniforge3/envs/cellxgene/bin/cellxgene-harvester resolve-uberon retina
+
+
+Resolving: 'retina'
+  Searching OLS4 for: 'retina'
+  Exact match: UBERON:0000966  retina
+  Root term: UBERON:0000966  retina
+  Found 53 descendants for UBERON:0000966
+  [terms resolved for 'retina']
+    Before :        1 terms
+    After  :       54 terms
+    Removed:      -53 terms  (-5300.0%)
+  [deduplication]
+    Before :       54 terms
+    After  :       54 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_retina.json
+Saved CSV : data/uberon_retina.csv
+Total terms: 54  (root + descendants)
+
+======================================================================
+Finished: 2026-05-09 13:28:08
+Output  : data/uberon_retina.csv
+======================================================================
