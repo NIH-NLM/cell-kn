@@ -1,0 +1,15 @@
+clusterName,NSForest_markers,f_score
+MUC5B+ ductal cells,"['PIGR', 'PCSK5']",0.3571428571428571
+Ductal cells,"['CFTR', 'SLC4A4']",0.8169488217787969
+Acinar-mix,"['PGGHG', 'LINGO1']",0.6078162856841883
+Secretory acinar cells,['SYCN'],0.7705701497532
+Stressed beta cells,"['DDIT3', 'PPP1R15A', 'GNL3']",0.6043085696182481
+Beta cells,"['SAMD11', 'HOPX']",0.789965074864276
+Delta cells,"['HHEX', 'AKAP12']",0.670832472629622
+Alpha cells,['IRX2'],0.8333869307949575
+Gamma cells,['PPY'],0.8376024590163934
+Endothelial cells,"['PLVAP', 'FLT1']",0.719682659614658
+Quiescent stellate cells,['ACTA2'],0.4661016949152542
+Activated stellate cells,"['COL6A3', 'COL6A1']",0.6628710858072387
+Idling acinar cells,['CHRM3'],0.5942796610169492
+Macrophages,"['ZEB2', 'CD74']",0.4469273743016759
