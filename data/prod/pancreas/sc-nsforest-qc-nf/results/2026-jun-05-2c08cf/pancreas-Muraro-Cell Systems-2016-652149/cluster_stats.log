@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_pancreas_Muraro_Cell_Systems_2016_cellular_classification_X_tsne_652149.h5ad
+Loaded: 2123 cells x 15643 genes
+Cluster header: cellular_classification (9 clusters)
+Computing cluster statistics...
+Total cells: 2123
+Number of clusters: 9
+Cells per cluster - Min: 8, Max: 812, Mean: 235.9
+Saved: cluster_statistics_pancreas_Muraro_Cell_Systems_2016_cellular_classification_X_tsne_652149.csv
+Cluster statistics complete!
