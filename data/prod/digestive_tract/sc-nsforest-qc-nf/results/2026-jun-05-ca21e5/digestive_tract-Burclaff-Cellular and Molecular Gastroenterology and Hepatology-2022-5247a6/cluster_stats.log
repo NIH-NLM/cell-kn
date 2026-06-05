@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_digestive_tract_Burclaff_Cellular_and_Molecular_Gastroenterology_and_Hepatology_2022_lineage_X_umap_5247a6.h5ad
+Loaded: 12590 cells x 22624 genes
+Cluster header: lineage (23 clusters)
+Computing cluster statistics...
+Total cells: 12590
+Number of clusters: 23
+Cells per cluster - Min: 19, Max: 1569, Mean: 547.4
+Saved: cluster_statistics_digestive_tract_Burclaff_Cellular_and_Molecular_Gastroenterology_and_Hepatology_2022_lineage_X_umap_5247a6.csv
+Cluster statistics complete!
