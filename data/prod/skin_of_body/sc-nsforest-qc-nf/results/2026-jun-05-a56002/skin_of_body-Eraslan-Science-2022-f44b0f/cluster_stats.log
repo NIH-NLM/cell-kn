@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_skin_of_body_Eraslan_Science_2022_Broad_cell_type_X_umap_f44b0f.h5ad
+Loaded: 5327 cells x 32088 genes
+Cluster header: Broad cell type (17 clusters)
+Computing cluster statistics...
+Total cells: 5327
+Number of clusters: 17
+Cells per cluster - Min: 10, Max: 1320, Mean: 313.4
+Saved: cluster_statistics_skin_of_body_Eraslan_Science_2022_Broad_cell_type_X_umap_f44b0f.csv
+Cluster statistics complete!
