@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_heart_plus_pericardium_Zhao_Cell_Genomics_2025_author_cell_type_X_umap_9b5568.h5ad
+Loaded: 15842 cells x 32397 genes
+Cluster header: author_cell_type (8 clusters)
+Computing cluster statistics...
+Total cells: 15842
+Number of clusters: 8
+Cells per cluster - Min: 127, Max: 3994, Mean: 1980.2
+Saved: cluster_statistics_heart_plus_pericardium_Zhao_Cell_Genomics_2025_author_cell_type_X_umap_9b5568.csv
+Cluster statistics complete!
