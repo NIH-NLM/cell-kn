@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_heart_plus_pericardium_Litvinukova_Nature_2020_cell_type_X_umap_2fcb9b.h5ad
+Loaded: 486134 cells x 32383 genes
+Cluster header: cell_type (27 clusters)
+Computing cluster statistics...
+Total cells: 486134
+Number of clusters: 27
+Cells per cluster - Min: 718, Max: 125289, Mean: 18005.0
+Saved: cluster_statistics_heart_plus_pericardium_Litvinukova_Nature_2020_cell_type_X_umap_2fcb9b.csv
+Cluster statistics complete!
