@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_kidney_Han_Nature_2020_author_cell_type_X_umap_5c7ea7.h5ad
+Loaded: 22945 cells x 26069 genes
+Cluster header: author_cell_type (22 clusters)
+Computing cluster statistics...
+Total cells: 22945
+Number of clusters: 22
+Cells per cluster - Min: 5, Max: 8434, Mean: 1043.0
+Saved: cluster_statistics_kidney_Han_Nature_2020_author_cell_type_X_umap_5c7ea7.csv
+Cluster statistics complete!
