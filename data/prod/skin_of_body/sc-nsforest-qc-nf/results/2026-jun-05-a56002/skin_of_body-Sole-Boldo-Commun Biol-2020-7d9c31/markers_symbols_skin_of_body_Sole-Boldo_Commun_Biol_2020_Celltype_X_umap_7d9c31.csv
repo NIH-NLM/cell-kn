@@ -1,0 +1,14 @@
+clusterName,NSForest_markers,f_score
+Mesenchymal fibroblasts,['ASPN'],0.5738786279683378
+Secretory-papillary fibroblasts,"['APCDD1', 'SFRP2']",0.6321036889332003
+Secretory-reticular fibroblasts,['SLPI'],0.803979564399032
+Pro-inflammatory fibroblasts,"['CXCL12', 'CXCL3']",0.5856852979155137
+Pericytes,"['TAGLN', 'ACTA2']",0.8861859252823632
+Vascular EC,['ACKR1'],0.845082991254685
+Lymphatic EC,"['TFF3', 'CCL21']",0.9732272069464544
+Melanocytes,"['DCT', 'MLANA']",0.9071274298056156
+Diff. Keratinocytes,"['KRTDAP', 'LY6D']",0.8554311530151247
+EpSC and undiff. progenitors,"['COL17A1', 'MIR205HG']",0.759592795614722
+Erythrocytes,['HBB'],0.9549356223175964
+T cells,"['CD3D', 'CD52']",0.7870742826495039
+Macrophages+DC,"['HLA-DQA1', 'TYROBP']",0.9138366223038092
