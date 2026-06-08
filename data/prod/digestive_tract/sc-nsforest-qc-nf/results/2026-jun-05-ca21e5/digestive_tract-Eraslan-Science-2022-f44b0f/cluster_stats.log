@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_digestive_tract_Eraslan_Science_2022_Broad_cell_type_X_umap_f44b0f.h5ad
+Loaded: 34173 cells x 32088 genes
+Cluster header: Broad cell type (14 clusters)
+Computing cluster statistics...
+Total cells: 34173
+Number of clusters: 14
+Cells per cluster - Min: 17, Max: 13662, Mean: 2440.9
+Saved: cluster_statistics_digestive_tract_Eraslan_Science_2022_Broad_cell_type_X_umap_f44b0f.csv
+Cluster statistics complete!
