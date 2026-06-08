@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_respiratory_system_Guo_Nat_Commun_2023.0_celltype_level3_X_umap_3058a2.h5ad
+Loaded: 347970 cells x 32284 genes
+Cluster header: celltype_level3 (48 clusters)
+Computing cluster statistics...
+Total cells: 347970
+Number of clusters: 48
+Cells per cluster - Min: 6, Max: 101380, Mean: 7249.4
+Saved: cluster_statistics_respiratory_system_Guo_Nat_Commun_2023.0_celltype_level3_X_umap_3058a2.csv
+Cluster statistics complete!
