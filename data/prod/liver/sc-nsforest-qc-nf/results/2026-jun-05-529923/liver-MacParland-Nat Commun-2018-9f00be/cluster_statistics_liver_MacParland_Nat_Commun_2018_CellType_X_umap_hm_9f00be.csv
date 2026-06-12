@@ -1,0 +1,16 @@
+cluster,n_cells,percentage
+B cell,140,1.66
+Cholangiocyte,121,1.43
+Erythroid,53,0.63
+Hepatocyte,3498,41.43
+Inflammatory Macs,822,9.73
+LSEC 1,340,4.03
+"LSEC 2,3",301,3.56
+NK-like,520,6.16
+Non-inflammatory Macs,326,3.86
+Plasma,279,3.3
+Portal endothelial,238,2.82
+Stellate,20,0.24
+abT cell,1115,13.2
+gdT cell 1,333,3.94
+gdT cell 2,338,4.0

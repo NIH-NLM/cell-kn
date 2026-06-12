@@ -1,0 +1,28 @@
+cluster,n_cells,percentage
+B cell,1195,0.25
+CD14-positive monocyte,1883,0.39
+"CD14-positive, CD16-positive monocyte",3278,0.67
+"CD4-positive, alpha-beta cytotoxic T cell",3113,0.64
+"CD8-positive, alpha-beta cytotoxic T cell",2956,0.61
+"activated CD4-positive, alpha-beta T cell",1047,0.22
+"activated CD8-positive, alpha-beta T cell",3001,0.62
+capillary endothelial cell,57759,11.88
+dendritic cell,814,0.17
+endothelial cell,13263,2.73
+endothelial cell of artery,20317,4.18
+endothelial cell of lymphatic vessel,754,0.16
+epicardial adipocyte,3799,0.78
+fibroblast,59341,12.21
+macrophage,14640,3.01
+mast cell,1543,0.32
+mature NK T cell,1463,0.3
+mesothelial cell,718,0.15
+monocyte,1684,0.35
+natural killer cell,3628,0.75
+neural cell,3961,0.81
+pericyte,77856,16.02
+regular atrial cardiac myocyte,23483,4.83
+regular ventricular cardiac myocyte,125289,25.77
+smooth muscle cell,16242,3.34
+unknown,34621,7.12
+vein endothelial cell,8486,1.75

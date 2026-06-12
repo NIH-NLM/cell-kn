@@ -1,0 +1,23 @@
+clusterName,gene
+Mesenchymal fibroblasts,ASPN
+Secretory-papillary fibroblasts,APCDD1
+Secretory-papillary fibroblasts,SFRP2
+Secretory-reticular fibroblasts,SLPI
+Pro-inflammatory fibroblasts,CXCL12
+Pro-inflammatory fibroblasts,CXCL3
+Pericytes,TAGLN
+Pericytes,ACTA2
+Vascular EC,ACKR1
+Lymphatic EC,TFF3
+Lymphatic EC,CCL21
+Melanocytes,DCT
+Melanocytes,MLANA
+Diff. Keratinocytes,KRTDAP
+Diff. Keratinocytes,LY6D
+EpSC and undiff. progenitors,COL17A1
+EpSC and undiff. progenitors,MIR205HG
+Erythrocytes,HBB
+T cells,CD3D
+T cells,CD52
+Macrophages+DC,HLA-DQA1
+Macrophages+DC,TYROBP

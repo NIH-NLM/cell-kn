@@ -1,0 +1,20 @@
+cluster,n_cells,percentage
+B,68,0.25
+CCDlike,45,0.16
+CNT,122,0.44
+CTAL,1156,4.18
+DCT,109,0.39
+Endothelial,572,2.07
+ICA,304,1.1
+ICB,130,0.47
+LOHlike,1011,3.65
+MNP,999,3.61
+Mesangial,130,0.47
+NK,466,1.68
+PC,455,1.64
+PEC,64,0.23
+PT,20769,75.05
+Podocytes,16,0.06
+T cell,938,3.39
+VCAM1_PT,214,0.77
+unknown,107,0.39

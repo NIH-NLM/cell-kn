@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_heart_plus_pericardium_Selewa_Nat_Commun_2023_author_cell_type_X_umap_a8bcce.h5ad
+Loaded: 49359 cells x 56689 genes
+Cluster header: author_cell_type (8 clusters)
+Computing cluster statistics...
+Total cells: 49359
+Number of clusters: 8
+Cells per cluster - Min: 757, Max: 15336, Mean: 6169.9
+Saved: cluster_statistics_heart_plus_pericardium_Selewa_Nat_Commun_2023_author_cell_type_X_umap_a8bcce.csv
+Cluster statistics complete!

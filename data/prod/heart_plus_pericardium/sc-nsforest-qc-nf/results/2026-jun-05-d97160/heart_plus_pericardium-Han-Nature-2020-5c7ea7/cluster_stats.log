@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_heart_plus_pericardium_Han_Nature_2020_author_cell_type_X_umap_5c7ea7.h5ad
+Loaded: 2775 cells x 26069 genes
+Cluster header: author_cell_type (12 clusters)
+Computing cluster statistics...
+Total cells: 2775
+Number of clusters: 12
+Cells per cluster - Min: 5, Max: 984, Mean: 231.2
+Saved: cluster_statistics_heart_plus_pericardium_Han_Nature_2020_author_cell_type_X_umap_5c7ea7.csv
+Cluster statistics complete!

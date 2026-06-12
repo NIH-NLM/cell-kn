@@ -1,0 +1,33 @@
+clusterName,gene
+Stromal Cells,DCN
+Lymphatic  Cells,CCL21
+Vein,ACKR1
+Vein,C7
+Artery,IGFBP3
+Capillary,BTNL9
+Capillary,HYAL2
+Neutrophils,CSF3R
+Neutrophils,IL1R2
+Basophil and Mast Cells,TPSAB1
+Basophil and Mast Cells,TPSB2
+B Cells,CD79A
+T Cells,CD3D
+Natural Killer Cells,NKG7
+Natural Killer Cells,GZMB
+Natural Killer Cells,PRF1
+Monocytes,FCN1
+Monocytes,FGL2
+Macrophage and Dendritic Cells,C1QB
+Macrophage and Dendritic Cells,MRC1
+Macrophage and Dendritic Cells,MS4A6A
+Macrophages,FABP4
+Macrophages,MARCO
+AT2,SFTPA2
+AT2,SFTPA1
+Proliferating Macrophage,NUSAP1
+Proliferating Macrophage,PBK
+Other Epithelial Cells,KLK11
+Other Epithelial Cells,TSPAN8
+Ciliated Cells,CAPS
+Ciliated Cells,SPMIP6
+AT1,AGER
