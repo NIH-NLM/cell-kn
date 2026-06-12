@@ -1,0 +1,30 @@
+clusterName,NSForest_markers,f_score
+chondrocyte,"['COL1A2', 'COL3A1', 'LAMA2', 'SFTPA1']",0.3007518796992481
+ciliated cell,"['DNAH12', 'CFAP157']",0.9615384615384616
+natural killer cell,"['KLRD1', 'AOAH']",0.5544147843942505
+T cell,['THEMIS'],0.7971619365609349
+B cell,['RALGPS2'],0.5685131195335277
+dendritic cell,['WDFY4'],0.6547619047619048
+monocyte,"['MTSS1', 'AOAH']",0.5664160401002506
+macrophage,"['F13A1', 'STAB1']",0.6389452332657201
+alveolar macrophage,"['STAC', 'ABCG1']",0.8244972577696527
+type I pneumocyte,"['LAMA3', 'ARHGEF26']",0.8930276981852913
+unknown,"['LPCAT1', 'AFF3', 'ATP11A']",0.1512337490050411
+type II pneumocyte,"['LAMP3', 'PTGFR']",0.8037578288100209
+AT2/Club-like,"['HSD17B6', 'SLC22A3', 'PLCL1']",0.5919003115264797
+AT1/AT2-like,"['SECISBP2L', 'LINC02889']",0.3333333333333333
+goblet cell,"['BPIFB1', 'CYP2F1']",0.7877813504823151
+club cell,"['CP', 'KLK11']",0.5076923076923077
+basal cell,"['ITGA2', 'EYA2', 'ANOS1']",0.603448275862069
+lymphatics,['PKHD1L1'],0.9116541353383458
+endothelial cell of artery,['DKK2'],0.8895705521472392
+vein endothelial cell,"['PLA1A', 'SAMD5']",0.6756756756756757
+blood vessel endothelial cell,"['COL15A1', 'TNFRSF10A']",0.6666666666666666
+endothelial cell,"['BTNL9', 'ADGRL2']",0.6997455470737913
+pericyte cell,['ADARB2'],0.8008658008658008
+vascular associated smooth muscle cell,"['NTRK3', 'ACTA2']",0.7377049180327869
+smooth muscle cell,"['MYOCD', 'SYNPO2']",0.6818181818181818
+myofibroblast cell,['UBASH3B'],0.3846153846153846
+fibroblast,"['SVEP1', 'ADH1B']",0.823890462700661
+mast cell,"['KIT', 'SLC24A3']",0.8108108108108109
+enucleate erythrocyte,"['RASGEF1B', 'FTH1', 'BACH1']",0.238095238095238

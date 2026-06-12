@@ -1,0 +1,41 @@
+clusterName,NSForest_markers,f_score
+Plasma cells,"['JUN', 'MZB1']",0.8516483516483516
+Immature B cells,"['TCL1A', 'CD72']",0.4600811907983761
+Mature naive B cells,"['IL4R', 'TCL1A']",0.8487967526819368
+Nonswitched memory B cells,"['MS4A1', 'JCHAIN']",0.4439959636730575
+Class switched memory B cells,"['CD24', 'SEL1L3', 'CD79B']",0.2661279979479287
+CD11c+ memory B cells,"['CD19', 'MS4A1', 'ITGAX']",0.4251012145748988
+Mesenchymal cells_1,['CXCL12'],0.958904109589041
+Aberrant erythroid,"['RHAG', 'HBD', 'CA1']",0.4943502824858757
+CD8+ naive T cells,"['CD8B', 'CCR7', 'CD8A', 'CD27']",0.4049135577797998
+CD4+ naive T cells,"['CCR7', 'CD4']",0.2915951972555746
+CD4+ memory T cells,"['IL7R', 'CD4', 'IL32']",0.7414522956691632
+CD69+PD-1+ memory CD4+ T cells,"['ITGAL', 'CD27', 'ENSG00000277734', 'DUSP2', 'GZMA']",0.0694444444444444
+CD8+CD103+ tissue resident memory T cells,"['CD8A', 'CD27', 'IL7R', 'ENSG00000277734']",0.4866726564839772
+CD8+ central memory T cells,"['CD8A', 'GZMA', 'DUSP2', 'ENSG00000277734']",0.4268292682926829
+NK T cells,"['ENSG00000211829', 'DUSP2', 'GZMA']",0.2571770334928229
+CD8+ effector memory T cells,"['GNLY', 'CD8A', 'ENSG00000227191']",0.6121540402166654
+GammaDelta T cells,"['ENSG00000211829', 'IL7R', 'ENSG00000227191']",0.5662909286097692
+CD4+ cytotoxic T cells,"['GNLY', 'KLRB1', 'ITGB1', 'ADGRG1']",0.1551724137931034
+CD56brightCD16- NK cells,"['ENSG00000211829', 'ITGAX', 'AREG']",0.4807692307692308
+CD56dimCD16+ NK cells,"['FCGR3A', 'ENSG00000211829']",0.8510367960967676
+Lymphomyeloid prog,"['SPARC', 'SPINK2', 'FLT3']",0.5722278738555443
+Megakaryocyte progenitors,"['MPL', 'ITGA2B']",0.6485992691839221
+Erythro-myeloid progenitors,"['TESPA1', 'CRHBP', 'CPA3']",0.5304276315789473
+Eosinophil-basophil-mast cell progenitors,"['PRG2', 'HDC']",0.8702290076335878
+HSCs & MPPs,"['CRHBP', 'SPINK2']",0.7261709120788825
+NK cell progenitors,"['FCGR3A', 'CRHBP', 'MSRB3', 'KLRB1']",0.7051282051282052
+Conventional dendritic cell 2,"['CD1C', 'HLA-DQB1', 'CD33', 'ITGAX']",0.5291970802919708
+Classical Monocytes,"['CD163', 'CD14']",0.7992578849721707
+Myelocytes,"['S100A8', 'RNASE2']",0.5931835449907739
+Non-classical monocytes,"['MS4A7', 'FCGR3A']",0.837730870712401
+Pre-pro-B cells,"['VPREB1', 'DDIT4']",0.4054054054054054
+Plasmacytoid dendritic cell progenitors,"['IL3RA', 'TOP2A']",0.5894145950280674
+Plasmacytoid dendritic cells,"['UGCG', 'JCHAIN']",0.7126696832579186
+Late promyelocytes,"['MPO', 'CSTA']",0.7328167115902965
+Conventional dendritic cell 1,"['C12orf75', 'RNASE2', 'FCER1A', 'TGFBI']",0.7261640798226164
+Early erythroid progenitor,"['CASP3', 'ITGA2B', 'IL1B']",0.7352219769438313
+Late erythroid progenitor,"['DTL', 'AHSP']",0.863857982247781
+Pre-B cells,"['CENPA', 'MME']",0.6532258064516129
+Pro-B cells,"['DNTT', 'VPREB1']",0.5542168674698795
+Early promyelocytes,"['MPO', 'SPINK2']",0.6956172094893446

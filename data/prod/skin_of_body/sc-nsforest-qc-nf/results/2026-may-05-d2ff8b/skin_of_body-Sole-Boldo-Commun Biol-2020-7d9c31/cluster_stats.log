@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: skin_of_body_Sole-Boldo_Commun_Biol_2020_Celltype_X_umap_7d9c31_adata_filtered.h5ad
+Loaded: 15457 cells x 30172 genes
+Cluster header: Celltype (13 clusters)
+Computing cluster statistics...
+Total cells: 15457
+Number of clusters: 13
+Cells per cluster - Min: 123, Max: 2228, Mean: 1189.0
+Saved: skin_of_body_Sole-Boldo_Commun_Biol_2020_Celltype_X_umap_7d9c31_cluster_statistics.csv
+Cluster statistics complete!

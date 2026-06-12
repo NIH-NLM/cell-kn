@@ -1,0 +1,54 @@
+clusterName,gene
+Macrophage,IL1B
+Dendritic cell,GPR183
+Dendritic cell,HLA-DPA1
+M2 Macrophage,C1QB
+M2 Macrophage,MARCO
+Neutrophil,S100A8
+B cell (Plasmocyte),JCHAIN
+AT2 cell,SFTPC
+Fetal epithelial progenitor,CFAP276
+Fetal epithelial progenitor,CAPS
+Fetal chondrocyte,CLEC3A
+Chondrocyte,CYTL1
+Thyroid follicular cell,TG
+Epithelial cell,PLA2G2A
+Epithelial cell,HP
+Mesothelial cell,ITLN1
+Antigen presenting cell (RPS high),CARNMT1
+Antigen presenting cell (RPS high),SELL
+Antigen presenting cell (RPS high),TK1
+Neutrophil (RPS high),EMSY-DT
+Neutrophil (RPS high),MRPS31
+Neutrophil (RPS high),TOP2B
+CB CD34+,ITGA2B
+CB CD34+,CA2
+CB CD34+,GPX1
+B cell,PLAC8
+T cell,CCL5
+Mast cell,TPSB2
+Mast cell,CPA3
+Sinusoidal endothelial cell,GNLY
+Sinusoidal endothelial cell,PTPRC
+Monocyte,FCN1
+Monocyte,HSPA1A
+Stratified epithelial cell,WFDC2
+Stratified epithelial cell,AZGP1
+Basal cell,S100A2
+Basal cell,KRT5
+Endothelial cell,ADAMTS9
+Endothelial cell,PCAT19
+Endothelial cell (APC),ACKR1
+Smooth muscle cell,ACTA2
+Smooth muscle cell,TAGLN
+Endothelial cell (endothelial to mesenchymal transition),EPAS1
+Endothelial cell (endothelial to mesenchymal transition),GPX3
+Fetal mesenchymal progenitor,COL3A1
+Fetal mesenchymal progenitor,SEM1
+Fetal mesenchymal progenitor,BGN
+Fetal stromal cell,RABAC1
+Fetal stromal cell,CDH11
+Stromal cell,APOD
+Stromal cell,LUM
+Stromal cell,DCN
+Fibroblast,IGFBP6

@@ -1,0 +1,129 @@
+clusterName,gene
+Capillary Aerocyte,SOSTDC1
+Capillary Aerocyte,EDNRB
+Capillary Intermediate 1,CYP3A5
+Capillary Intermediate 1,S100A3
+Capillary Intermediate 1,FRY
+Capillary Intermediate 1,GPIHBP1
+Capillary,EDN1
+Capillary,CA4
+Capillary Intermediate 2,NHERF2
+Capillary Intermediate 2,CCND1
+Vein,RGS5
+Vein,ACKR1
+Artery,DKK2
+Bronchial Vessel 2,GJA1
+Bronchial Vessel 2,PALMD
+Bronchial Vessel 2,CD36
+Bronchial Vessel 1,PLVAP
+Bronchial Vessel 1,TM4SF18
+Lymphatic,CCL21
+Pericyte,NDUFA4L2
+Pericyte,FAM162B
+Alveolar Epithelial Type 2,LAMP3
+Alveolar Epithelial Type 2,NAPSA
+Signaling Alveolar Epithelial Type 2,NAPSA
+Signaling Alveolar Epithelial Type 2,SFTPA1
+Signaling Alveolar Epithelial Type 2,AK1
+Signaling Alveolar Epithelial Type 2,SLC34A2
+Alveolar Epithelial Type 1,AGER
+Basophil/Mast 2,NR4A3
+Basophil/Mast 2,TPSB2
+Basophil/Mast 1,TPSB2
+B,MS4A1
+B,CD79A
+Plasma,TNFRSF17
+Plasma,TNFRSF13B
+CD4+ Naive T,PRKCQ-AS1
+CD4+ Naive T,LTB
+CD4+ Naive T,IL7R
+CD4+ Memory/Effector T,CD3D
+CD4+ Memory/Effector T,CD2
+Natural Killer T,ZNF683
+Natural Killer T,KLRC2
+Airway Smooth Muscle,TNNT2
+Airway Smooth Muscle,ACTG2
+Vascular Smooth Muscle,ECRG4
+Vascular Smooth Muscle,ACTA2
+Fibromyocyte,SBSPON
+Fibromyocyte,BCHE
+Myofibroblast,ASPN
+Myofibroblast,SCARA3
+Adventitial Fibroblast,CCDC80
+Adventitial Fibroblast,LUM
+Alveolar Fibroblast,GPC3
+Alveolar Fibroblast,LUM
+Lipofibroblast,FST
+Lipofibroblast,WT1
+Mesothelial,CPA4
+Mesothelial,RGS4
+Ciliated,SNTN
+Ciliated,CFAP276
+Proximal Ciliated,TP53AIP1
+Proximal Ciliated,PLAAT2
+Proximal Ciliated,CFAP141
+Neuroendocrine,CHGA
+Neuroendocrine,SCG5
+Ionocyte,ASCL3
+Ionocyte,ATP6V1G3
+Goblet,UPK1B
+Goblet,MSMB
+Differentiating Basal,ADH1C
+Differentiating Basal,CLCA2
+Proximal Basal,DAPL1
+Proximal Basal,LGALS7B
+Proximal Basal,ADH7
+Proliferating Basal,H1-5
+Proliferating Basal,FOXM1
+Proliferating Basal,H1-1
+Proliferating Basal,PBK
+Basal,SYT8
+Basal,KRT17
+Serous,PRR4
+Mucous,SAA2
+Mucous,TMEM45A
+Club,SCGB3A2
+Club,SFTPB
+CD8+ Naive T,CD3D
+CD8+ Naive T,GZMH
+CD8+ Naive T,GNLY
+CD8+ Naive T,NKG7
+CD8+ Memory/Effector T,GZMK
+CD8+ Memory/Effector T,CD8A
+Natural Killer,FGFBP2
+Natural Killer,KLRB1
+Natural Killer,CD247
+Proliferating NK/T,CDCA5
+Proliferating NK/T,MKI67
+Plasmacytoid Dendritic,SCT
+Plasmacytoid Dendritic,SPIB
+Myeloid Dendritic Type 1,LGALS2
+Myeloid Dendritic Type 1,DUSP4
+Myeloid Dendritic Type 1,LAMP3
+Myeloid Dendritic Type 2,CD1C
+Myeloid Dendritic Type 2,PLD4
+IGSF21+ Dendritic,FOLR2
+IGSF21+ Dendritic,STAB1
+EREG+ Dendritic,CLEC5A
+EREG+ Dendritic,MXD1
+EREG+ Dendritic,FPR3
+OLR1+ Classical Monocyte,IL1B
+OLR1+ Classical Monocyte,ATP13A3
+Classical Monocyte,S100A12
+Classical Monocyte,S100A8
+Intermediate Monocyte,APOBEC3A
+Intermediate Monocyte,ADGRE2
+Intermediate Monocyte,LILRA5
+Intermediate Monocyte,LILRB2
+Intermediate Monocyte,IL1B
+Nonclassical Monocyte,LRRC25
+Nonclassical Monocyte,LILRA1
+Proliferating Macrophage,CEP55
+Proliferating Macrophage,CKAP2L
+Macrophage,MSR1
+Macrophage,FABP4
+TREM2+ Dendritic,CHIT1
+Platelet/Megakaryocyte,CCL18
+Platelet/Megakaryocyte,ACP5
+Platelet/Megakaryocyte,C1QC
+Platelet/Megakaryocyte,C1QB

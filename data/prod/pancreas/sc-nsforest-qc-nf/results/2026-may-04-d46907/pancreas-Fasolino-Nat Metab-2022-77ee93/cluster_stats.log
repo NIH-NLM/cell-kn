@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: pancreas_Fasolino_Nat_Metab_2022_cell_label_X_umap_77ee93_adata_filtered.h5ad
+Loaded: 32323 cells x 25629 genes
+Cluster header: cell_label (14 clusters)
+Computing cluster statistics...
+Total cells: 32323
+Number of clusters: 14
+Cells per cluster - Min: 144, Max: 8826, Mean: 2308.8
+Saved: pancreas_Fasolino_Nat_Metab_2022_cell_label_X_umap_77ee93_cluster_statistics.csv
+Cluster statistics complete!

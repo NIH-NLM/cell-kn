@@ -1,0 +1,65 @@
+clusterName,gene
+Secretory,TFCP2L1
+Secretory,SELENBP1
+Secretory,PI3
+Secretory,CSTA
+Squamous,PRSS27
+Mono IL6+,FCN1
+LC,CD1E
+LC,MS4A6A
+Mac,IFI30
+Mac,SPI1
+pDC,LILRA4
+Mast,TPSAB1
+MAIT,ENSG00000256553
+MAIT,SH2D2A
+T CD8 mem 1,GZMA
+T CD8 mem 2,KIR2DL4
+T CD8 mem 2,TBX21
+T naive,IL32
+T naive,JUNB
+B mem,NCF1
+B mem,CD79A
+Basal 1 KHDRBS2+,FN1
+Basal 1 KHDRBS2+,SLC23A2
+Secretory GALNT4+,SRGAP3
+Secretory GALNT4+,ADAM28
+Transit epi 1,ENSG00000280614
+Transit epi 1,ENSG00000281181
+Transit epi 1,SCGB3A1
+Transit epi 2,FOS
+Transit epi 2,CAPS
+Duct,MIA
+Club,MT1M
+Club,CFD
+Club,SCGB1A1
+Goblet 1,TSPAN8
+Goblet 1,MSMB
+Goblet 2 BPIFA2+,FCGBP
+Goblet 2 BPIFA2+,SLURP2
+Goblet 2 PLAU+,SAA2
+Goblet 2 PLAU+,SPRR3
+Goblet 2 inflammatory,ANPEP
+Goblet 2 inflammatory,KRT4
+Goblet 2 inflammatory,SLURP2
+Goblet 2 inflammatory,CCDC80
+Goblet 2 inflammatory,IFITM2
+B mem exhausted,FCRLA
+B mem exhausted,ENSG00000211895
+Basal 1,KRT15
+Basal 1,BCAM
+Basal 2,CSRP2
+Basal 2,LGALS7
+Cycling basal,UBE2C
+Cycling basal,NUSAP1
+Cycling hillock,ANLN
+Cycling hillock,KRT13
+Hillock,LGALS7
+Hillock,KRT6A
+Ionocyte,CLCNKB
+Ionocyte,ADGRF5
+Deuterosomal,CDC20B
+Ciliated 1,SPMIP6
+Ciliated 1,PIERCE1
+Ciliated 2,DTHD1
+Ciliated 2,NEK10

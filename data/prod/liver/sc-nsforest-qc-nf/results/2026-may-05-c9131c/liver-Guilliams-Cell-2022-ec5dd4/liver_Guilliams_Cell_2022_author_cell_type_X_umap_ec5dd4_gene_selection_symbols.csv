@@ -1,0 +1,30 @@
+clusterName,gene
+Mono+mono derived cells,FCN1
+Mono+mono derived cells,CFD
+Macrophages,C1QA
+Macrophages,FOLR2
+Neutrophils,CSF3R
+Endothelial cells,PTPRB
+Fibroblasts,PRKG1
+Fibroblasts,CCBE1
+Cholangiocytes,CTNND2
+Cholangiocytes,BICC1
+Hepatocytes,ACSM2B
+Hepatocytes,ACSM2A
+Resident NK,XCL1
+Resident NK,TXK
+Circulating NK/NKT,FGFBP2
+Circulating NK/NKT,CD247
+T cells,CD3D
+Basophils,TPSAB1
+Plasma cells,SEC11C
+Plasma cells,TNFRSF17
+pDCs,LILRA4
+pDCs,MAP1A
+B cells,MS4A1
+Mig.cDCs,LAMP3
+Mig.cDCs,LAD1
+cDC1s,CLEC9A
+cDC1s,CLNK
+cDC2s,FCER1A
+cDC2s,CD1C

@@ -1,0 +1,95 @@
+clusterName,gene
+Nonclassical monocytes,ZNF703
+Nonclassical monocytes,PELATON
+Classical monocytes,CD14
+Classical monocytes,VCAN
+Cycling,S100A8
+Cycling,CENPF
+Cycling,MKI67
+MNP/T doublets,S100A8
+MNP/T doublets,S100A9
+MNP/T doublets,LYZ
+MNP/T doublets,CCL4
+DC2,CD1C
+DC2,PKIB
+DC2,JAML
+DC1,CLEC9A
+pDC,LILRA4
+pDC,SHD
+T_CD4/CD8,MACF1
+Plasma cells,SDC1
+Plasma cells,SPAG4
+T/B doublets,ERVK3-1
+T/B doublets,ENSG00000211899
+T/B doublets,CD79A
+Plasmablasts,MYBL2
+Plasmablasts,TXNDC5
+Erythroid,AHSP
+Progenitor,PRTN3
+Progenitor,ELANE
+GC_B (I),TLR10
+GC_B (I),ANLN
+Mast cells,HDC
+Mast cells,CLC
+Megakaryocytes,PF4
+Megakaryocytes,CLEC1B
+Erythrophagocytic macrophages,FABP4
+Erythrophagocytic macrophages,SELENOP
+Alveolar macrophages,GPNMB
+Alveolar macrophages,FN1
+Intestinal macrophages,SDS
+Intestinal macrophages,MMP19
+Intermediate macrophages,CXCL3
+Intermediate macrophages,SDC2
+Intermediate macrophages,EGR1
+MNP/B doublets,WDR45B
+MNP/B doublets,APOE
+Memory B cells,LINC01781
+Memory B cells,BLK
+ABCs,ENSG00000184293
+ABCs,ACP5
+ABCs,FCRL5
+Naive B cells,FCER2
+Naive B cells,TCL1A
+Pre-B,IGF2
+Pro-B,DNTT
+Pro-B,ARPP21
+ILC3,IL1R1
+ILC3,KIT
+NK_CD56bright_CD16-,XCL1
+NK_CD56bright_CD16-,KLRC1
+NK_CD56bright_CD16-,GZMK
+NK_CD16+,SPON2
+NK_CD16+,PRF1
+Cycling T&NK,CKAP2L
+Cycling T&NK,NUSAP1
+Tem/emra_CD8,FGFBP2
+Tem/emra_CD8,CD8B
+Trm/em_CD8,GZMK
+Trm/em_CD8,CD8B
+Tgd_CRTAM+,KLRC3
+Tgd_CRTAM+,ENSG00000227191
+Tgd_CRTAM+,GZMK
+Tgd_CRTAM+,KLRD1
+Trm_Th1/Th17,ERN1
+Trm_Th1/Th17,HSPA1B
+MAIT,KLRG1
+MAIT,GZMK
+MAIT,KLRB1
+Trm_gut_CD8,CD160
+Trm_gut_CD8,CD8B
+Trm_gut_CD8,CCL5
+Tregs,CTLA4
+Tregs,GBP5
+Tregs,CD27
+Teffector/EM_CD4,TRADD
+Teffector/EM_CD4,MAL
+Tfh,SOCS1
+Tfh,IL6ST
+Tnaive/CM_CD4,TSHZ2
+Tnaive/CM_CD8,LINC02446
+Tnaive/CM_CD8,CCR7
+Tnaive/CM_CD8,CD8B
+Tnaive/CM_CD4_activated,HSPA1B
+Tnaive/CM_CD4_activated,TRABD2A
+Tnaive/CM_CD4_activated,CCR7

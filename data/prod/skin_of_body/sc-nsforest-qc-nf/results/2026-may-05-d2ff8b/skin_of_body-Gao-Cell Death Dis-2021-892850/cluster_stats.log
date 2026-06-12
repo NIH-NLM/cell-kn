@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: skin_of_body_Gao_Cell_Death_Dis_2021_CellTypes_X_umap_892850_adata_filtered.h5ad
+Loaded: 11369 cells x 28082 genes
+Cluster header: CellTypes (25 clusters)
+Computing cluster statistics...
+Total cells: 11369
+Number of clusters: 25
+Cells per cluster - Min: 7, Max: 1720, Mean: 454.8
+Saved: skin_of_body_Gao_Cell_Death_Dis_2021_CellTypes_X_umap_892850_cluster_statistics.csv
+Cluster statistics complete!

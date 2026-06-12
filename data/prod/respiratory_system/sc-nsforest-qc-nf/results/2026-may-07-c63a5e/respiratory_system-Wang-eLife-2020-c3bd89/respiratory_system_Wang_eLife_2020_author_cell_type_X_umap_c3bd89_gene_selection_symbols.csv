@@ -1,0 +1,58 @@
+clusterName,gene
+chondrocyte,COL1A2
+chondrocyte,COL3A1
+chondrocyte,LAMA2
+chondrocyte,SFTPA1
+ciliated cell,DNAH12
+ciliated cell,CFAP157
+natural killer cell,KLRD1
+natural killer cell,AOAH
+T cell,THEMIS
+B cell,RALGPS2
+dendritic cell,WDFY4
+monocyte,MTSS1
+monocyte,AOAH
+macrophage,F13A1
+macrophage,STAB1
+alveolar macrophage,STAC
+alveolar macrophage,ABCG1
+type I pneumocyte,LAMA3
+type I pneumocyte,ARHGEF26
+unknown,LPCAT1
+unknown,AFF3
+unknown,ATP11A
+type II pneumocyte,LAMP3
+type II pneumocyte,PTGFR
+AT2/Club-like,HSD17B6
+AT2/Club-like,SLC22A3
+AT2/Club-like,PLCL1
+AT1/AT2-like,SECISBP2L
+AT1/AT2-like,LINC02889
+goblet cell,BPIFB1
+goblet cell,CYP2F1
+club cell,CP
+club cell,KLK11
+basal cell,ITGA2
+basal cell,EYA2
+basal cell,ANOS1
+lymphatics,PKHD1L1
+endothelial cell of artery,DKK2
+vein endothelial cell,PLA1A
+vein endothelial cell,SAMD5
+blood vessel endothelial cell,COL15A1
+blood vessel endothelial cell,TNFRSF10A
+endothelial cell,BTNL9
+endothelial cell,ADGRL2
+pericyte cell,ADARB2
+vascular associated smooth muscle cell,NTRK3
+vascular associated smooth muscle cell,ACTA2
+smooth muscle cell,MYOCD
+smooth muscle cell,SYNPO2
+myofibroblast cell,UBASH3B
+fibroblast,SVEP1
+fibroblast,ADH1B
+mast cell,KIT
+mast cell,SLC24A3
+enucleate erythrocyte,RASGEF1B
+enucleate erythrocyte,FTH1
+enucleate erythrocyte,BACH1

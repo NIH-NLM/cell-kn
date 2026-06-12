@@ -1,0 +1,31 @@
+clusterName,NSForest_markers,f_score
+Macrophage,['IL1B'],0.6337284356296209
+Dendritic cell,"['GPR183', 'HLA-DPA1']",0.5707762557077626
+M2 Macrophage,"['C1QB', 'MARCO']",0.9119103716882244
+Neutrophil,['S100A8'],0.8181126331811264
+B cell (Plasmocyte),['JCHAIN'],0.8456057007125891
+AT2 cell,['SFTPC'],0.937549912154608
+Fetal epithelial progenitor,"['CFAP276', 'CAPS']",0.7456140350877193
+Fetal chondrocyte,['CLEC3A'],0.5555555555555556
+Chondrocyte,['CYTL1'],0.8482384823848238
+Thyroid follicular cell,['TG'],0.9523809523809524
+Epithelial cell,"['PLA2G2A', 'HP']",0.2884615384615384
+Mesothelial cell,['ITLN1'],0.9410914072608264
+Antigen presenting cell (RPS high),"['CARNMT1', 'SELL', 'TK1']",0.5555555555555556
+Neutrophil (RPS high),"['EMSY-DT', 'MRPS31', 'TOP2B']",0.7692307692307693
+CB CD34+,"['ITGA2B', 'CA2', 'GPX1']",0.5882352941176471
+B cell,['PLAC8'],0.2525252525252525
+T cell,['CCL5'],0.6801943412403544
+Mast cell,"['TPSB2', 'CPA3']",0.8998915793277918
+Sinusoidal endothelial cell,"['GNLY', 'PTPRC']",0.3846153846153846
+Monocyte,"['FCN1', 'HSPA1A']",0.4506742370475514
+Stratified epithelial cell,"['WFDC2', 'AZGP1']",0.8675534991324465
+Basal cell,"['S100A2', 'KRT5']",0.8059626073774634
+Endothelial cell,"['ADAMTS9', 'PCAT19']",0.6299112801013942
+Endothelial cell (APC),['ACKR1'],0.469166734017619
+Smooth muscle cell,"['ACTA2', 'TAGLN']",0.7328504473796336
+Endothelial cell (endothelial to mesenchymal transition),"['EPAS1', 'GPX3']",0.5150708146713473
+Fetal mesenchymal progenitor,"['COL3A1', 'SEM1', 'BGN']",0.2040816326530612
+Fetal stromal cell,"['RABAC1', 'CDH11']",0.4166666666666667
+Stromal cell,"['APOD', 'LUM', 'DCN']",0.2025886325267304
+Fibroblast,['IGFBP6'],0.7910999215275961

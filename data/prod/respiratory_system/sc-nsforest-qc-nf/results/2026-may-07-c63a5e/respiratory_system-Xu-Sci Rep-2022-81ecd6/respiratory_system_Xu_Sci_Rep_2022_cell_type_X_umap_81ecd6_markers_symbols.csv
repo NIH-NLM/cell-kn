@@ -1,0 +1,11 @@
+clusterName,NSForest_markers,f_score
+respiratory tract multiciliated cell,"['CIMIP1', 'SPMIP6']",0.9136338946224878
+ionocyte,"['ASCL3', 'STAP1']",0.8341013824884793
+T cell,['CCL5'],0.8255269320843092
+professional antigen presenting cell,"['TYROBP', 'HLA-DPB1']",0.8695652173913043
+respiratory basal cell,['KRT5'],0.7308248914616498
+keratinizing barrier epithelial cell,"['SPRR3', 'CST6']",0.6084758942457231
+glandular secretory epithelial cell,"['DUOXA2', 'DUOX2']",0.469857465534699
+club cell,"['HPGD', 'CYP2A13', 'CRYM', 'KLF2']",0.2541866028708134
+respiratory tract epithelial cell,['ASRGL1'],0.4963973378802046
+nasal mucosa goblet cell,"['KLK11', 'TFF1']",0.6072602330445175

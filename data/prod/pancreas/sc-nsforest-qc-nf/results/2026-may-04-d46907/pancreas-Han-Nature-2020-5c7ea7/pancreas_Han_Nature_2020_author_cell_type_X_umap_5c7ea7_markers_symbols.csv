@@ -1,0 +1,10 @@
+clusterName,NSForest_markers,f_score
+B cell (Plasmocyte),['MZB1'],0.9090909090909092
+Fetal endocrine cell,['SCG5'],0.8333333333333334
+Enterocyte progenitor,['SOD2'],0.5144873699851411
+Pancreas exocrine cell,['PRSS1'],0.9169592553278354
+Endothelial cell (APC),"['SLCO2A1', 'ACKR1']",0.7142857142857143
+Endothelial cell,"['SELENOF', 'TGFBR2']",0.5681818181818182
+Endothelial cell (endothelial to mesenchymal transition),"['ARF4', 'COL1A1']",0.8
+Stromal cell,"['SERPINF1', 'APOD']",0.8743169398907104
+Macrophage,['S100A4'],0.7960199004975125

@@ -1,0 +1,108 @@
+clusterName,gene
+Plasma cells,JUN
+Plasma cells,MZB1
+Immature B cells,TCL1A
+Immature B cells,CD72
+Mature naive B cells,IL4R
+Mature naive B cells,TCL1A
+Nonswitched memory B cells,MS4A1
+Nonswitched memory B cells,JCHAIN
+Class switched memory B cells,CD24
+Class switched memory B cells,SEL1L3
+Class switched memory B cells,CD79B
+CD11c+ memory B cells,CD19
+CD11c+ memory B cells,MS4A1
+CD11c+ memory B cells,ITGAX
+Mesenchymal cells_1,CXCL12
+Aberrant erythroid,RHAG
+Aberrant erythroid,HBD
+Aberrant erythroid,CA1
+CD8+ naive T cells,CD8B
+CD8+ naive T cells,CCR7
+CD8+ naive T cells,CD8A
+CD8+ naive T cells,CD27
+CD4+ naive T cells,CCR7
+CD4+ naive T cells,CD4
+CD4+ memory T cells,IL7R
+CD4+ memory T cells,CD4
+CD4+ memory T cells,IL32
+CD69+PD-1+ memory CD4+ T cells,ITGAL
+CD69+PD-1+ memory CD4+ T cells,CD27
+CD69+PD-1+ memory CD4+ T cells,ENSG00000277734
+CD69+PD-1+ memory CD4+ T cells,DUSP2
+CD69+PD-1+ memory CD4+ T cells,GZMA
+CD8+CD103+ tissue resident memory T cells,CD8A
+CD8+CD103+ tissue resident memory T cells,CD27
+CD8+CD103+ tissue resident memory T cells,IL7R
+CD8+CD103+ tissue resident memory T cells,ENSG00000277734
+CD8+ central memory T cells,CD8A
+CD8+ central memory T cells,GZMA
+CD8+ central memory T cells,DUSP2
+CD8+ central memory T cells,ENSG00000277734
+NK T cells,ENSG00000211829
+NK T cells,DUSP2
+NK T cells,GZMA
+CD8+ effector memory T cells,GNLY
+CD8+ effector memory T cells,CD8A
+CD8+ effector memory T cells,ENSG00000227191
+GammaDelta T cells,ENSG00000211829
+GammaDelta T cells,IL7R
+GammaDelta T cells,ENSG00000227191
+CD4+ cytotoxic T cells,GNLY
+CD4+ cytotoxic T cells,KLRB1
+CD4+ cytotoxic T cells,ITGB1
+CD4+ cytotoxic T cells,ADGRG1
+CD56brightCD16- NK cells,ENSG00000211829
+CD56brightCD16- NK cells,ITGAX
+CD56brightCD16- NK cells,AREG
+CD56dimCD16+ NK cells,FCGR3A
+CD56dimCD16+ NK cells,ENSG00000211829
+Lymphomyeloid prog,SPARC
+Lymphomyeloid prog,SPINK2
+Lymphomyeloid prog,FLT3
+Megakaryocyte progenitors,MPL
+Megakaryocyte progenitors,ITGA2B
+Erythro-myeloid progenitors,TESPA1
+Erythro-myeloid progenitors,CRHBP
+Erythro-myeloid progenitors,CPA3
+Eosinophil-basophil-mast cell progenitors,PRG2
+Eosinophil-basophil-mast cell progenitors,HDC
+HSCs & MPPs,CRHBP
+HSCs & MPPs,SPINK2
+NK cell progenitors,FCGR3A
+NK cell progenitors,CRHBP
+NK cell progenitors,MSRB3
+NK cell progenitors,KLRB1
+Conventional dendritic cell 2,CD1C
+Conventional dendritic cell 2,HLA-DQB1
+Conventional dendritic cell 2,CD33
+Conventional dendritic cell 2,ITGAX
+Classical Monocytes,CD163
+Classical Monocytes,CD14
+Myelocytes,S100A8
+Myelocytes,RNASE2
+Non-classical monocytes,MS4A7
+Non-classical monocytes,FCGR3A
+Pre-pro-B cells,VPREB1
+Pre-pro-B cells,DDIT4
+Plasmacytoid dendritic cell progenitors,IL3RA
+Plasmacytoid dendritic cell progenitors,TOP2A
+Plasmacytoid dendritic cells,UGCG
+Plasmacytoid dendritic cells,JCHAIN
+Late promyelocytes,MPO
+Late promyelocytes,CSTA
+Conventional dendritic cell 1,C12orf75
+Conventional dendritic cell 1,RNASE2
+Conventional dendritic cell 1,FCER1A
+Conventional dendritic cell 1,TGFBI
+Early erythroid progenitor,CASP3
+Early erythroid progenitor,ITGA2B
+Early erythroid progenitor,IL1B
+Late erythroid progenitor,DTL
+Late erythroid progenitor,AHSP
+Pre-B cells,CENPA
+Pre-B cells,MME
+Pro-B cells,DNTT
+Pro-B cells,VPREB1
+Early promyelocytes,MPO
+Early promyelocytes,SPINK2
