@@ -1,0 +1,69 @@
+clusterName,gene
+Neutrophils,FCGR3B
+NK cells,IKZF3
+NK cells,MAB21L3
+NK cells,IFITM1
+Macrophages,FMN1
+Central venous LSECs,STAB2
+Central venous LSECs,CRHBP
+Stellate cells,ENSG00000249669
+Stellate cells,RBMS3-AS3
+Fibroblasts,SGCZ
+Fibroblasts,LRMDA
+Cholangiocytes,BICC1
+Cholangiocytes,DCDC2
+Pericentral hepatocytes,CYP3A4
+Pericentral hepatocytes,FMO3
+Pericentral hepatocytes,HLF
+Pericentral hepatocytes,ADH4
+Interzonal hepatocytes,HAL
+Interzonal hepatocytes,SERPIND1
+Interzonal hepatocytes,HRG
+Interzonal hepatocytes,CRP
+Interzonal hepatocytes,AHSG
+Periportal hepatocytes,ORM1
+Periportal hepatocytes,NNMT
+Portal endothelial cells,RSPO3
+Portal endothelial cells,INMT
+Periportal LSECs,MGP
+Periportal LSECs,CLEC14A
+Immune mix,ORM1
+Non-inflammatory macrophages,CD5L
+Non-inflammatory macrophages,MARCO
+Non-classical monocytes,FCN1
+Non-classical monocytes,FCGR3A
+Classical monocytes,VCAN
+Classical monocytes,S100A12
+Inflammatory macrophages,FCGR2A
+Inflammatory macrophages,C1QB
+DC2,CD1C
+DC2,PAK1
+DC2,SLC38A1
+DC2,PPA1
+DC1,CLEC9A
+DC1,WDFY4
+Migratory DCs,CCL19
+Migratory DCs,FSCN1
+Plasma cells,TNFRSF17
+Plasma cells,POU2AF1
+pDC,PLD4
+pDC,MAP1A
+B cells,BANK1
+B cells,CD79A
+CD4 T cells,C12orf57
+CD4 T cells,IL7R
+CD4 T cells,LDHB
+MAIT cells,SPOCK2
+MAIT cells,MYBL1
+MAIT cells,GZMK
+Tem/Trm cytotoxic T cells,GZMK
+Tem/Trm cytotoxic T cells,GZMH
+Tem/Trm cytotoxic T cells,CD3D
+Tem/Temra cytotoxic T cells,FGFBP2
+Tem/Temra cytotoxic T cells,GZMH
+Tem/Temra cytotoxic T cells,CD3D
+CD16+ NK cells,FGFBP2
+CD16+ NK cells,GZMB
+CD16+ NK cells,KLRF1
+CD16- NK cells,CD160
+CD16- NK cells,CMC1

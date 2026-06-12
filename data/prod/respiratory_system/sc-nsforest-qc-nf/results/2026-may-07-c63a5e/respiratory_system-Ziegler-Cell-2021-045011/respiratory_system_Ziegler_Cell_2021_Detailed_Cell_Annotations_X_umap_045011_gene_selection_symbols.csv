@@ -1,0 +1,71 @@
+clusterName,gene
+Developing Secretory and Goblet Cells,CMYA5
+Developing Secretory and Goblet Cells,FAT2
+Mitotic Basal Cells,MKI67
+Mitotic Basal Cells,TOP2A
+SCGB1A1 high Goblet Cells,SCGB1A1
+SCGB1A1 high Goblet Cells,ADH1C
+MUC5AC high Goblet Cells,FER1L6
+MUC5AC high Goblet Cells,ANKRD36C
+AZGP1 SCGB3A1 LTF high Goblet Cells,TCN1
+AZGP1 SCGB3A1 LTF high Goblet Cells,RARRES1
+Early Response Secretory Cells,PTGES
+Early Response Secretory Cells,EGR1
+BPIFA1 high Secretory Cells,COX6B1
+BPIFA1 high Secretory Cells,SERPINB3
+SERPINB11 high Secretory Cells,LIMA1
+SERPINB11 high Secretory Cells,CP
+KRT24 KRT13 high Secretory Cells,UPK1B
+KRT24 KRT13 high Secretory Cells,KRT4
+KRT24 KRT13 high Secretory Cells,MGST1
+AZGP1 high Goblet Cells,ATP10B
+AZGP1 high Goblet Cells,PLAAT4
+AZGP1 high Goblet Cells,C15orf48
+HOPX high Squamous Cells,ENSG00000184809
+HOPX high Squamous Cells,CSGALNACT1
+VEGFA high Squamous Cells,UCA1
+VEGFA high Squamous Cells,SLCO4A1
+VEGFA high Squamous Cells,GNE
+SPRR2D high Squamous Cells,SPRR1B
+SPRR2D high Squamous Cells,SPRR2F
+CCL5 high Squamous Cells,DNAJB1
+ITGAX high Macrophages,FCN1
+ITGAX high Macrophages,SLC11A1
+Dendritic Cells,HLA-DQB1
+Dendritic Cells,HLA-DQA1
+B Cells,MS4A1
+B Cells,FCRL1
+Early Response T Cells,DOK2
+Early Response T Cells,CSRNP1
+Early Response T Cells,NR4A3
+CD8 T Cells,PTPRC
+CD8 T Cells,LCP1
+Interferon Responsive Cytotoxic CD8 T Cells,GNLY
+Interferon Responsive Cytotoxic CD8 T Cells,CD247
+Developing Ciliated Cells,CIMAP3
+Deuterosomal Cells,CDC20B
+Cilia high Ciliated Cells,DMD
+Cilia high Ciliated Cells,DYNC2I1
+BEST4 high Cilia high Ciliated Cells,SPPL2B
+BEST4 high Cilia high Ciliated Cells,MAPK15
+BEST4 high Cilia high Ciliated Cells,CCDC187
+Interferon Responsive Ciliated Cells,MX1
+Interferon Responsive Ciliated Cells,BLTP1
+Interferon Responsive Ciliated Cells,IFI27
+Interferon Responsive Ciliated Cells,RSPH1
+Interferon Responsive Ciliated Cells,ADAR
+FOXJ1 high Ciliated Cells,IGFBP7
+FOXJ1 high Ciliated Cells,FAM216B
+FOXJ1 high Ciliated Cells,CIMIP1
+FOXJ1 high Ciliated Cells,SPAG6
+FOXJ1 high Ciliated Cells,RRAD
+Early Response FOXJ1 high Ciliated Cells,CLDN3
+Early Response FOXJ1 high Ciliated Cells,FOXJ1
+Early Response FOXJ1 high Ciliated Cells,GDF15
+Early Response FOXJ1 high Ciliated Cells,KLF4
+Erythroblasts,HBB
+Ionocytes,STAP1
+Ionocytes,DGKI
+Basal Cells,KRT15
+Basal Cells,COL7A1
+Enteroendocrine Cells,ENSG00000278869

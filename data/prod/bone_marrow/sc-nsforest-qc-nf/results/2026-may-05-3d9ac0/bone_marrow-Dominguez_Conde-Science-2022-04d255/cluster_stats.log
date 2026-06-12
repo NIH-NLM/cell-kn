@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: bone_marrow_Dominguez_Conde_Science_2022_Manually_curated_celltype_X_umap_04d255_adata_filtered.h5ad
+Loaded: 40507 cells x 35469 genes
+Cluster header: Manually_curated_celltype (42 clusters)
+Computing cluster statistics...
+Total cells: 40507
+Number of clusters: 42
+Cells per cluster - Min: 5, Max: 7394, Mean: 964.5
+Saved: bone_marrow_Dominguez_Conde_Science_2022_Manually_curated_celltype_X_umap_04d255_cluster_statistics.csv
+Cluster statistics complete!

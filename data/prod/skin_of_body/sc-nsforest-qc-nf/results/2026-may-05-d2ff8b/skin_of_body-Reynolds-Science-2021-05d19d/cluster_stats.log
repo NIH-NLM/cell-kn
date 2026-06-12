@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: skin_of_body_Reynolds_Science_2021_full_clustering_X_umap_05d19d_adata_filtered.h5ad
+Loaded: 195739 cells x 27867 genes
+Cluster header: full_clustering (34 clusters)
+Computing cluster statistics...
+Total cells: 195739
+Number of clusters: 34
+Cells per cluster - Min: 71, Max: 32496, Mean: 5757.0
+Saved: skin_of_body_Reynolds_Science_2021_full_clustering_X_umap_05d19d_cluster_statistics.csv
+Cluster statistics complete!

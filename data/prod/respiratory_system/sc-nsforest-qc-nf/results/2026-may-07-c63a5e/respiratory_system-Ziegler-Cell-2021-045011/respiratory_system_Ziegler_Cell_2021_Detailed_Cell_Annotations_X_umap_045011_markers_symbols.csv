@@ -1,0 +1,32 @@
+clusterName,NSForest_markers,f_score
+Developing Secretory and Goblet Cells,"['CMYA5', 'FAT2']",0.4219823356231599
+Mitotic Basal Cells,"['MKI67', 'TOP2A']",0.7946210268948656
+SCGB1A1 high Goblet Cells,"['SCGB1A1', 'ADH1C']",0.3333333333333333
+MUC5AC high Goblet Cells,"['FER1L6', 'ANKRD36C']",0.4700854700854701
+AZGP1 SCGB3A1 LTF high Goblet Cells,"['TCN1', 'RARRES1']",0.6796116504854369
+Early Response Secretory Cells,"['PTGES', 'EGR1']",0.4545454545454545
+BPIFA1 high Secretory Cells,"['COX6B1', 'SERPINB3']",0.3333333333333333
+SERPINB11 high Secretory Cells,"['LIMA1', 'CP']",0.2985074626865671
+KRT24 KRT13 high Secretory Cells,"['UPK1B', 'KRT4', 'MGST1']",0.603448275862069
+AZGP1 high Goblet Cells,"['ATP10B', 'PLAAT4', 'C15orf48']",0.5494505494505495
+HOPX high Squamous Cells,"['ENSG00000184809', 'CSGALNACT1']",0.8333333333333334
+VEGFA high Squamous Cells,"['UCA1', 'SLCO4A1', 'GNE']",0.7407407407407407
+SPRR2D high Squamous Cells,"['SPRR1B', 'SPRR2F']",0.7932692307692307
+CCL5 high Squamous Cells,['DNAJB1'],0.1037891268533772
+ITGAX high Macrophages,"['FCN1', 'SLC11A1']",0.6395348837209303
+Dendritic Cells,"['HLA-DQB1', 'HLA-DQA1']",0.6666666666666666
+B Cells,"['MS4A1', 'FCRL1']",0.875
+Early Response T Cells,"['DOK2', 'CSRNP1', 'NR4A3']",0.6818181818181818
+CD8 T Cells,"['PTPRC', 'LCP1']",0.5789473684210527
+Interferon Responsive Cytotoxic CD8 T Cells,"['GNLY', 'CD247']",0.7894736842105263
+Developing Ciliated Cells,['CIMAP3'],0.4712260216847372
+Deuterosomal Cells,['CDC20B'],0.6910569105691057
+Cilia high Ciliated Cells,"['DMD', 'DYNC2I1']",0.6286656891495601
+BEST4 high Cilia high Ciliated Cells,"['SPPL2B', 'MAPK15', 'CCDC187']",0.6148522757519297
+Interferon Responsive Ciliated Cells,"['MX1', 'BLTP1', 'IFI27', 'RSPH1', 'ADAR']",0.2597402597402597
+FOXJ1 high Ciliated Cells,"['IGFBP7', 'FAM216B', 'CIMIP1', 'SPAG6', 'RRAD']",0.5245901639344263
+Early Response FOXJ1 high Ciliated Cells,"['CLDN3', 'FOXJ1', 'GDF15', 'KLF4']",0.6473684210526316
+Erythroblasts,['HBB'],0.8741146168705731
+Ionocytes,"['STAP1', 'DGKI']",0.8814102564102564
+Basal Cells,"['KRT15', 'COL7A1']",0.7452276064610867
+Enteroendocrine Cells,['ENSG00000278869'],0.9782608695652174

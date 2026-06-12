@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: bone_marrow_Triana_Nat_Immunol_2021_Cell_label_X_umap_77f3db_adata_filtered.h5ad
+Loaded: 49050 cells x 461 genes
+Cluster header: Cell_label (40 clusters)
+Computing cluster statistics...
+Total cells: 49050
+Number of clusters: 40
+Cells per cluster - Min: 17, Max: 5112, Mean: 1226.2
+Saved: bone_marrow_Triana_Nat_Immunol_2021_Cell_label_X_umap_77f3db_cluster_statistics.csv
+Cluster statistics complete!

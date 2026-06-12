@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: pancreas_Han_Nature_2020_author_cell_type_X_umap_5c7ea7_adata_filtered.h5ad
+Loaded: 9711 cells x 26069 genes
+Cluster header: author_cell_type (9 clusters)
+Computing cluster statistics...
+Total cells: 9711
+Number of clusters: 9
+Cells per cluster - Min: 6, Max: 5566, Mean: 1079.0
+Saved: pancreas_Han_Nature_2020_author_cell_type_X_umap_5c7ea7_cluster_statistics.csv
+Cluster statistics complete!

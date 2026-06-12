@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Wong_American_Journal_of_Transplantation_2024_GSVA_anno_labels_lowcluster_X_umap_3db111_adata_filtered.h5ad
+Loaded: 108613 cells x 28055 genes
+Cluster header: GSVA_anno_labels_lowcluster (18 clusters)
+Computing cluster statistics...
+Total cells: 108613
+Number of clusters: 18
+Cells per cluster - Min: 290, Max: 39466, Mean: 6034.1
+Saved: respiratory_system_Wong_American_Journal_of_Transplantation_2024_GSVA_anno_labels_lowcluster_X_umap_3db111_cluster_statistics.csv
+Cluster statistics complete!

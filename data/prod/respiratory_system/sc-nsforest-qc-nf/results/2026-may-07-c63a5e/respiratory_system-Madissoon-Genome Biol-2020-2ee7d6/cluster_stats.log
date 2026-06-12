@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Madissoon_Genome_Biol_2020_author_cell_type_X_umap_2ee7d6_adata_filtered.h5ad
+Loaded: 57019 cells x 24349 genes
+Cluster header: author_cell_type (25 clusters)
+Computing cluster statistics...
+Total cells: 57019
+Number of clusters: 25
+Cells per cluster - Min: 46, Max: 10418, Mean: 2280.8
+Saved: respiratory_system_Madissoon_Genome_Biol_2020_author_cell_type_X_umap_2ee7d6_cluster_statistics.csv
+Cluster statistics complete!
