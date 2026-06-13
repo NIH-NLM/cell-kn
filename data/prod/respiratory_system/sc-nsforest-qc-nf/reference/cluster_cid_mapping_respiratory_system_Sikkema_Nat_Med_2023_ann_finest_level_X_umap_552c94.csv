@@ -1,0 +1,62 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Adventitial fibroblasts,relatedMatch,CL:4028006,CL:4028006
+Alveolar fibroblasts,relatedMatch,CL:4028004,CL:4028004
+Alveolar macrophages,exactMatch,CL:0000583,CL:0000583
+Alveolar Mph CCL3+,exactMatch,CL:4033041,CL:0000583
+Alveolar Mph MT-positive,exactMatch,CL:4033042,CL:0000583
+Alveolar Mph proliferating,exactMatch,CL:4033077,CL:0000583
+AT0,relatedMatch,CL:0002063,CL:0000322
+AT1,exactMatch,CL:0002062,CL:0002062
+AT2,exactMatch,CL:0002063,CL:0002063
+AT2 proliferating,exactMatch,CL:4033080,CL:0002063
+B cells,exactMatch,CL:0000236,CL:0000236
+Basal resting,exactMatch,CL:0002633,CL:0002633
+CD4 T cells,exactMatch,CL:0000624,CL:0000624
+CD8 T cells,exactMatch,CL:0000625,CL:0000625
+Classical monocytes,exactMatch,CL:0000860,CL:0000860
+Club (nasal),relatedMatch,CL:0000158,CL:0000158
+Club (non-nasal),exactMatch,CL:0000158,CL:0000158
+DC1,exactMatch,CL:0000990,CL:0000990
+DC2,exactMatch,CL:0002399,CL:0002399
+Deuterosomal,exactMatch,CL:4033044,CL:0005012
+EC aerocyte capillary,exactMatch,CL:4028003,CL:0002144
+EC arterial,exactMatch,CL:1001568,CL:1001568
+EC general capillary,relatedMatch,CL:4028002,CL:0002144
+EC venous pulmonary,exactMatch,CL:4033008,CL:0002543
+EC venous systemic,exactMatch,CL:0002543,CL:0002543
+Goblet (bronchial),exactMatch,CL:1000312,CL:1000312
+Goblet (nasal),exactMatch,CL:0002480,CL:0002480
+Goblet (subsegmental),relatedMatch,CL:0019003,CL:0019003
+Hematopoietic stem cells,exactMatch,CL:0000037,CL:0000037
+Hillock-like,exactMatch,CL:4030023,CL:4030023
+Interstitial Mph perivascular,exactMatch,CL:4033043,CL:0005006
+Ionocyte,exactMatch,CL:0005006,CL:0002138
+Lymphatic EC differentiating,relatedMatch,CL:0002138,CL:0002138
+Lymphatic EC mature,exactMatch,CL:0002138,CL:0002138
+Lymphatic EC proliferating,exactMatch,CL:4033079,CL:0000097
+Mast cells,exactMatch,CL:0000097,CL:0000077
+Mesothelium,exactMatch,CL:0000077,CL:0000451
+Migratory DCs,exactMatch,CL:4033045,CL:0000861
+Monocyte-derived Mph,exactMatch,CL:0000861,CL:0005012
+Multiciliated (nasal),exactMatch,CL:0005012,CL:0002145
+Multiciliated (non-nasal),exactMatch,CL:0002145,CL:0000186
+Myofibroblasts,exactMatch,CL:0000186,CL:1000223
+Neuroendocrine,exactMatch,CL:1000223,CL:0000623
+NK cells,exactMatch,CL:0000623,CL:0000875
+Non-classical monocytes,exactMatch,CL:0000875,CL:2000093
+Peribronchial fibroblasts,exactMatch,CL:2000093,CL:0009089
+Pericytes,exactMatch,CL:0009089,CL:0000786
+Plasma cells,exactMatch,CL:0000786,CL:0000784
+Plasmacytoid DCs,exactMatch,CL:0000784,CL:0002632
+pre-TB secretory,relatedMatch,CL:0002632,CL:0000192
+SM activated stress response,relatedMatch,CL:0000192,CL:0000622
+SMG duct,exactMatch,CL:4033024,CL:0000319
+SMG mucous,relatedMatch,CL:0000319,CL:0019001
+SMG serous (bronchial),exactMatch,CL:0019001,CL:0000313
+SMG serous (nasal),relatedMatch,CL:0000313,CL:0019019
+Smooth muscle,exactMatch,CL:0000192,CL:0000499
+Smooth muscle FAM83D+,relatedMatch,CL:0000192,CL:0000057
+Subpleural fibroblasts,relatedMatch,CL:0000057,CL:0002633
+Suprabasal,exactMatch,CL:4033048,CL:0000084
+T cells proliferating,exactMatch,CL:4033069,CL:0002075
+Tuft,exactMatch,CL:0002204,
