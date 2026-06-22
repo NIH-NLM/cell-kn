@@ -49,7 +49,7 @@ for cell-level h5ad filtering (filter_adata, compute_scsilhouette).
 
 The same three resolve JSON files are shared with sc-nsforest-qc-nf for cell-level `.h5ad` filtering, giving both pipelines a single, reproducible ontology-scope definition.
 
-### Quality-Control Workflow
+### Data Generation and Quality-Control Workflow
 
 The [sc-nsforest-qc-nf](https://github.com/NIH-NLM/sc-nsforest-qc-nf#sc-nsforest-qc-nf) [Nextflow](https://nextflow.io) workflow runs the scsilhouette package and NSForest over each harvested dataset, producing the marker genes, F-scores, and silhouette quality metrics consumed downstream by the ETL pipeline:
 
