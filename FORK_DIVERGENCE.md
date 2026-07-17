@@ -66,6 +66,10 @@ above. 81 + 9 placeholder files removed; only `reference/` mappings retained.
   `neocortex/sc-nsforest-qc-nf/{reference,results}/` layout.
 - Recovered per-cluster NSForest results (154 rows) from tag `v1.0.0-rc.4`; added a
   `master_dataset_summary` (5 superclusters) with `dataset_version_id`.
+- Backfilled the missing `doi` column in that `master_dataset_summary` with
+  `10.1126/science.adf6812` (Jorstad et al. 2023, *Science*). This file was the only summary using
+  a reduced schema; all other summaries already carry `doi`. Placed before `collection_name` to
+  match the canonical column order.
 
 **5. Run-folder lifecycle** (`56b64cb1`)
 - Promoted 9 heart results out of a dated run folder (`2026-jun-05-d97160/`) to sit directly under
