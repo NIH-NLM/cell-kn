@@ -1,0 +1,1497 @@
+======================================================================
+CellxGene Harvester - 5 Count Normal Cells
+======================================================================
+Started : 2026-07-31 15:21:15
+Log file: data/homo_sapiens_neocortext_harvester_with_normal_counts.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester count-normal-cells --uberon data/uberon_neocortex.json --disease data/disease_normal.json --hsapdv data/hsapdv_adult_15.json data/homo_sapiens_neocortext_harvester.csv
+
+UBERON file  : data/uberon_neocortex.json
+Disease file : data/disease_normal.json
+HsapDv file  : data/hsapdv_adult_15.json
+Output       : data/homo_sapiens_neocortext_harvester_with_normal_counts.csv
+
+  Loaded UBERON JSON : data/uberon_neocortex.json
+  Root terms          : neocortex
+  Total obo_ids       : 101
+  Loaded disease JSON : data/disease_normal.json
+  Root terms          : normal
+  Total obo_ids       : 1
+  Loaded HsapDv JSON : data/hsapdv_adult_15.json
+  Root terms          : 15-year-old stage, prime adult stage, adult stage, young adult stage, 15-19 year-old
+  Total obo_ids       : 119
+
+Starting fresh: data/homo_sapiens_neocortext_harvester.csv (167 datasets)
+Already processed: 0 / 167
+
+Opening Census connection (once for all datasets)...
+Census connection open
+
+
+[1/167] f9cfac8d-bff6-47a2-a1f6-503827d375f5
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 637 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      637 cells
+    After  :      637 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 637 normal cells
+
+[2/167] ea95cdd5-cf7e-4d5d-a0bd-032776d32ae5
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 16,319 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   16,319 cells
+    After  :   16,319 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 16,319 normal cells
+
+[3/167] e34f3f89-3a48-4173-a06a-9e9803f2e2b9
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 57,855 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   57,855 cells
+    After  :   57,855 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 57,855 normal cells
+
+[4/167] e2a325e2-5633-4950-ae46-ebff70979e3b
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 4,683 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    4,683 cells
+    After  :    4,683 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 4,683 normal cells
+
+[5/167] d5a2d011-3765-4dad-ac36-3fff087589fe
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 8,093 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    8,093 cells
+    After  :    8,093 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 8,093 normal cells
+
+[6/167] b6e502d7-0d07-408e-a291-91b63af0a40a
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 3,934 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    3,934 cells
+    After  :    3,934 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 3,934 normal cells
+
+[7/167] a30db232-08a6-48f0-ab9f-ad6977b8a6b1
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 8,213 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    8,213 cells
+    After  :    8,213 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 8,213 normal cells
+
+[8/167] 9ea52f85-a35e-4b5b-9207-e2f1de7dbbcd
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 35,171 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   35,171 cells
+    After  :   35,171 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 35,171 normal cells
+
+[9/167] 93091496-be48-4122-b945-9af9c22a7535
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 28,718 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   28,718 cells
+    After  :   28,718 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 28,718 normal cells
+
+[10/167] 78f40dd6-ed22-470d-8547-6fb5746c25da
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 1,465 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,465 cells
+    After  :    1,465 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,465 normal cells
+
+[11/167] 6929d6d1-6f81-44d7-bd35-5a580259af81
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 1,875 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,875 cells
+    After  :    1,875 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,875 normal cells
+
+[12/167] 5e7fff82-b8eb-4220-bf65-c6feb6765ea1
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 563 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      563 cells
+    After  :      563 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 563 normal cells
+
+[13/167] 4e374783-0152-423e-bcb6-b87cc232f64d
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 19,711 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   19,711 cells
+    After  :   19,711 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 19,711 normal cells
+
+[14/167] 4859642c-d155-437b-adf5-83ca6c1bef67
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 582 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      582 cells
+    After  :      582 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 582 normal cells
+
+[15/167] 390b376d-8857-4b4b-991f-0d7326938172
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 4,112 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    4,112 cells
+    After  :    4,112 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 4,112 normal cells
+
+[16/167] 34229bdc-a895-4394-8820-574e4028d8c6
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 31,924 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   31,924 cells
+    After  :   31,924 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 31,924 normal cells
+
+[17/167] 31285bcd-9a28-48ce-8cc0-543af80261d3
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 11,244 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   11,244 cells
+    After  :   11,244 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 11,244 normal cells
+
+[18/167] 3079e9b0-c6db-45c8-b998-a4555a73968e
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 28,943 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   28,943 cells
+    After  :   28,943 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 28,943 normal cells
+
+[19/167] 1fc48734-35ee-4372-885c-95fd2674c75a
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 79,631 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   79,631 cells
+    After  :   79,631 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 79,631 normal cells
+
+[20/167] 1a974af7-8b4b-4abb-8aba-23e2979d9518
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 16,668 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   16,668 cells
+    After  :   16,668 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 16,668 normal cells
+
+[21/167] 171b03c9-516b-499c-a434-fa4f70191988
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 7,156 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    7,156 cells
+    After  :    7,156 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 7,156 normal cells
+
+[22/167] 149b2c3f-ee11-47a7-984b-923570280bd7
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 301 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      301 cells
+    After  :      301 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 301 normal cells
+
+[23/167] 0de831e0-a525-4ec5-b717-df56f2de2bf0
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 6,133 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    6,133 cells
+    After  :    6,133 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 6,133 normal cells
+
+[24/167] 0087cde2-967d-4f7c-8e6e-40e4c9ad1891
+  Johansen (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 5,399 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    5,399 cells
+    After  :    5,399 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 5,399 normal cells
+
+[25/167] 82f6af6d-5313-439a-9936-5e844be49a70
+  Smith (2021.0) - Proc. Natl. Acad. Sci. U.S.A.
+    Querying Census (server-side filtered)...
+    Census returned 8,201 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    8,201 cells
+    After  :        0 cells
+    Removed:    8,201 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[26/167] 39ed7d98-676d-4b8d-9d0a-0f3b60914ead
+  Smith (2021.0) - Proc. Natl. Acad. Sci. U.S.A.
+    Querying Census (server-side filtered)...
+    Census returned 13,291 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   13,291 cells
+    After  :        0 cells
+    Removed:   13,291 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[27/167] fe2eecbc-977a-4aec-9196-f89c3281d11c
+  Pan (2024.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 517 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      517 cells
+    After  :      517 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 517 normal cells
+
+[28/167] 82346769-8733-485e-ab49-f14923d2b5bc
+  Pan (2024.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 1,604 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,604 cells
+    After  :    1,604 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,604 normal cells
+
+[29/167] 38491c97-ce53-43d6-b34a-ef93176c9481
+  Pan (2024.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 12,423 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   12,423 cells
+    After  :   12,423 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 12,423 normal cells
+
+[30/167] 15e0ec3e-a05f-4cd8-8624-96448f5a2b58
+  Pan (2024.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 9,383 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    9,383 cells
+    After  :    9,383 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 9,383 normal cells
+
+[31/167] 0a2d7e87-c3c0-4ed2-86df-ae18811fcc16
+  Pan (2024.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 31,971 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   31,971 cells
+    After  :   31,971 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 31,971 normal cells
+
+[32/167] 9813a1d4-d107-459e-9b2e-7687be935f69
+  Otero-Garcia (2022.0) - Neuron
+    Querying Census (server-side filtered)...
+    Census returned 11,464 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   11,464 cells
+    After  :   11,464 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 11,464 normal cells
+
+[33/167] 85c60876-7f35-40c5-a256-7808d84c6ba5
+  Otero-Garcia (2022.0) - Neuron
+    Querying Census (server-side filtered)...
+    Census returned 46,070 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   46,070 cells
+    After  :   46,070 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 46,070 normal cells
+
+[34/167] f7a068f1-0fdb-48e8-8029-db870ff11d9e
+  Bakken (2021.0) - Nature
+    Querying Census (server-side filtered)...
+    Census returned 10,980 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   10,980 cells
+    After  :   10,980 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 10,980 normal cells
+
+[35/167] b6203114-e133-458a-aed5-eed1028378b4
+  Bakken (2021.0) - Nature
+    Querying Census (server-side filtered)...
+    Census returned 7,805 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    7,805 cells
+    After  :    7,805 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 7,805 normal cells
+
+[36/167] 9b686bb6-1427-4e13-b451-7ee961115cf9
+  Bakken (2021.0) - Nature
+    Querying Census (server-side filtered)...
+    Census returned 1,705 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,705 cells
+    After  :    1,705 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,705 normal cells
+
+[37/167] 1a38e762-2465-418f-b81c-6a4bce261c34
+  Velmeshev (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 642,426 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  642,426 cells
+    After  :   80,130 cells
+    Removed:  562,296 cells  (87.5%)
+  SUCCESS: 80,130 normal cells
+
+[38/167] ac0c6561-7a48-4185-af6f-af799f699172
+  Rexach (2024.0) - Cell
+    Querying Census (server-side filtered)...
+    Census returned 84,006 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   84,006 cells
+    After  :   84,006 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 84,006 normal cells
+
+[39/167] e6361237-ac4e-4c5d-ad8f-f16aca0c0a8f
+  Gittings (2023.0) - Acta Neuropathol
+    Querying Census (server-side filtered)...
+    Census returned 22,835 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   22,835 cells
+    After  :   22,835 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 22,835 normal cells
+
+[40/167] 98f5d518-1e60-4307-b732-ab045cd3cbc2
+  Gittings (2023.0) - Acta Neuropathol
+    Querying Census (server-side filtered)...
+    Census returned 30,430 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   30,430 cells
+    After  :   30,430 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 30,430 normal cells
+
+[41/167] 3b8b5de4-3aa1-4ac6-8890-8d03c8219981
+  Gittings (2023.0) - Acta Neuropathol
+    Querying Census (server-side filtered)...
+    Census returned 43,033 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   43,033 cells
+    After  :   43,033 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 43,033 normal cells
+
+[42/167] 0bc7235a-ae5a-479d-a487-510435377e55
+  Gittings (2023.0) - Acta Neuropathol
+    Querying Census (server-side filtered)...
+    Census returned 19,270 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   19,270 cells
+    After  :   19,270 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 19,270 normal cells
+
+[43/167] 53ce2631-3646-4172-bbd9-38b0a44d8214
+  Zhu (2023.0) - Sci. Adv.
+    Querying Census (server-side filtered)...
+    Census returned 31,213 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   31,213 cells
+    After  :    7,396 cells
+    Removed:   23,817 cells  (76.3%)
+  SUCCESS: 7,396 normal cells
+
+[44/167] bdacc907-7c26-419f-8808-969eab3ca2e8
+  Leng (2021.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 641 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      641 cells
+    After  :      641 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 641 normal cells
+
+[45/167] b94e3bdf-a385-49cc-b312-7a63cc28b77a
+  Leng (2021.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 1,520 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,520 cells
+    After  :    1,520 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,520 normal cells
+
+[46/167] 873ff933-4fda-4936-9a70-67df11af90ac
+  Leng (2021.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 3,208 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    3,208 cells
+    After  :    3,208 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 3,208 normal cells
+
+[47/167] 6c600df6-ddca-4628-a8bb-1d6de1e3f9b4
+  Leng (2021.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 12,646 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   12,646 cells
+    After  :   12,646 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 12,646 normal cells
+
+[48/167] 24066994-8183-488d-b037-ef6bb524af39
+  Leng (2021.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 2,570 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    2,570 cells
+    After  :    2,570 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 2,570 normal cells
+
+[49/167] 1492eb6b-7d50-4c4d-94ac-c801a7d5555c
+  Leng (2021.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 1,592 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,592 cells
+    After  :    1,592 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,592 normal cells
+
+[50/167] c8f83821-a242-4ed7-86e9-7da077f5d348
+  Seeker (2023.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 796 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      796 cells
+    After  :      796 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 796 normal cells
+
+[51/167] c05e6940-729c-47bd-a2a6-6ce3730c4919
+  Seeker (2023.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 9,915 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    9,915 cells
+    After  :    9,915 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 9,915 normal cells
+
+[52/167] 894573ad-498f-47ee-9bec-ad0880147eea
+  Seeker (2023.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 2,343 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    2,343 cells
+    After  :    2,343 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 2,343 normal cells
+
+[53/167] 84242d25-f656-4ca6-8e8d-f3d2beeba11f
+  Seeker (2023.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 550 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      550 cells
+    After  :      550 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 550 normal cells
+
+[54/167] 3d044b52-140a-4528-bf0d-a2dbef9e1f40
+  Seeker (2023.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 1,318 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,318 cells
+    After  :    1,318 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,318 normal cells
+
+[55/167] 12194ced-8086-458e-84a8-e2ab935d8db1
+  Seeker (2023.0) - acta neuropathol commun
+    Querying Census (server-side filtered)...
+    Census returned 4,878 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    4,878 cells
+    After  :    4,878 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 4,878 normal cells
+
+[56/167] cff99df2-4904-44f7-9173-ff837f95606e
+  Dharshini (2026.0) - Nat Commun
+    Querying Census (server-side filtered)...
+    Census returned 85,523 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   85,523 cells
+    After  :   85,523 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 85,523 normal cells
+
+[57/167] 215ede73-4f67-4a72-b77e-9c3b077b6dfc
+  Dharshini (2026.0) - Nat Commun
+    Querying Census (server-side filtered)...
+    Census returned 54,700 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   54,700 cells
+    After  :   54,700 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 54,700 normal cells
+
+[58/167] 0ecea697-0f69-4d40-88e1-7f854e17e2b3
+  Dharshini (2026.0) - Nat Commun
+    Querying Census (server-side filtered)...
+    Census returned 19,365 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   19,365 cells
+    After  :   19,365 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 19,365 normal cells
+
+[59/167] fc0ceb80-d2d9-47c1-9d78-b0e45c64c500
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 1,102 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,102 cells
+    After  :    1,102 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,102 normal cells
+
+[60/167] d0ea3ec4-0f3b-4649-9146-1c0b5f303a55
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 11,065 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   11,065 cells
+    After  :   11,065 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 11,065 normal cells
+
+[61/167] b8920ef5-7d22-497b-abca-a7a9eb76d79a
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 10,747 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   10,747 cells
+    After  :   10,747 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 10,747 normal cells
+
+[62/167] b1d37bbd-9ae4-4404-b2f9-f2fe66750e4e
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 14,176 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   14,176 cells
+    After  :   14,176 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 14,176 normal cells
+
+[63/167] a4e89c26-e8d4-4471-9b06-16a1405880f0
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 16,699 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   16,699 cells
+    After  :   16,699 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 16,699 normal cells
+
+[64/167] a190b2e9-3796-4785-9a2f-013e2a9a43e6
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 12,327 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   12,327 cells
+    After  :   12,327 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 12,327 normal cells
+
+[65/167] 9ff9f9ba-016b-4cbb-8899-45dc20860b8b
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 43,698 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   43,698 cells
+    After  :   43,698 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 43,698 normal cells
+
+[66/167] 9940f951-3dc0-4579-bbb2-2392786e59a3
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 88,075 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   88,075 cells
+    After  :   88,075 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 88,075 normal cells
+
+[67/167] 74d584f0-74fc-482e-b944-e76f29c1ab85
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 43,209 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   43,209 cells
+    After  :   43,209 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 43,209 normal cells
+
+[68/167] 6f7fd0f1-a2ed-4ff1-80d3-33dde731cbc3
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 796,768 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  796,768 cells
+    After  :  796,768 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 796,768 normal cells
+
+[69/167] 6cda07c7-5d7a-41ba-9799-5bb73da25a60
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 2,477 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    2,477 cells
+    After  :    2,477 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 2,477 normal cells
+
+[70/167] 646e3e87-e46b-4b12-85b5-8d8589e26088
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 208,975 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  208,975 cells
+    After  :  208,975 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 208,975 normal cells
+
+[71/167] 6437bc9c-16cb-46c8-8f79-9a7384a0212a
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 26,837 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   26,837 cells
+    After  :   26,837 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 26,837 normal cells
+
+[72/167] 58c43cc2-e00e-43c4-94eb-8501369264e1
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 16,790 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   16,790 cells
+    After  :   16,790 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 16,790 normal cells
+
+[73/167] 53bc5729-6202-4351-bc99-1f36139e9dc4
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 56,909 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   56,909 cells
+    After  :   56,909 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 56,909 normal cells
+
+[74/167] 44c83972-e5d2-4858-ac58-2df9f4bf564b
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 57,846 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   57,846 cells
+    After  :   57,846 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 57,846 normal cells
+
+[75/167] 2ecc72f8-085f-4e86-8692-771f316c54f6
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 1,318 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    1,318 cells
+    After  :    1,318 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 1,318 normal cells
+
+[76/167] 2e5a9b5d-d31b-4e9f-a179-d5d70ba459fb
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 2,392 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    2,392 cells
+    After  :    2,392 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 2,392 normal cells
+
+[77/167] 1c9f5c6b-73da-4d17-95de-df080ffe0df1
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 7,553 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    7,553 cells
+    After  :    7,553 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 7,553 normal cells
+
+[78/167] 100c6145-7b0e-4ba6-81c1-ffebed0d1ac4
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 21,408 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   21,408 cells
+    After  :   21,408 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 21,408 normal cells
+
+[79/167] 0ed60482-a34f-4268-b576-d69cc30210f6
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 30,518 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   30,518 cells
+    After  :   30,518 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 30,518 normal cells
+
+[80/167] 0eccaf0c-19d2-4900-9962-899378adf8be
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 5,096 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    5,096 cells
+    After  :    5,096 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 5,096 normal cells
+
+[81/167] 04c94a7d-1133-42c9-bb48-c697bd302a8d
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 64,147 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   64,147 cells
+    After  :   64,147 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 64,147 normal cells
+
+[82/167] 0374f03c-62e2-4859-8a14-acb00b0627d5
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 9,238 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    9,238 cells
+    After  :    9,238 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 9,238 normal cells
+
+[83/167] 03181d87-4769-41e7-8c39-d9a81835f0d2
+  Gabitto (2024.0) - Nat Neurosci
+    Querying Census (server-side filtered)...
+    Census returned 44,166 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   44,166 cells
+    After  :   44,166 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 44,166 normal cells
+
+[84/167] f0939ae1-0877-42b2-bc0e-3249a42c2c0f
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[85/167] e8d1c9cc-29e6-4b51-90f1-29e75de6098f
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[86/167] d6f3c096-a6f0-4e67-91ad-514bd286f13e
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[87/167] a12d95f7-480f-4c8a-bf24-302175b27bc4
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[88/167] 8f83f50e-c091-4095-8456-a7acf6c9d423
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[89/167] 52f0b078-0fb7-4cdb-81f8-d1bcf7b4468b
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[90/167] 427bfbe6-1141-4505-98e3-38aa05339310
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[91/167] 3ed61f1e-bd31-411e-b4aa-9729e8437732
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[92/167] 38e5738d-3870-433b-858a-5c364f322439
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[93/167] 346c5aad-b034-4248-8cbe-0a05fd634b9c
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[94/167] 33da10b0-9c1d-4c82-9b14-c67cdcf9fae5
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[95/167] 0500e103-38db-456d-9c3f-b96b8a693ab2
+  Tian (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[96/167] 3c361813-5d5e-4868-bfe5-e7591e7b5381
+  Ma (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 172,120 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  172,120 cells
+    After  :  172,120 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 172,120 normal cells
+
+[97/167] f7d003d4-40d5-4de8-858c-a9a8b48fcc67
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[98/167] f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[99/167] f16f4108-7873-4035-9989-3748da1a7ff1
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[100/167] e6b2ce27-681b-4409-a053-2681875936e5
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[101/167] e4710a02-8abc-48d5-a3e8-9ae7e9d79bdb
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[102/167] cfa755c1-48c5-4336-94f4-aa95eca4fbd5
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[103/167] caf8670f-e647-4f0c-bfba-163aa84ce602
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[104/167] c7856243-c59a-4b70-8ce7-25b94c2d9da1
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[105/167] c4b03352-af8d-492a-8d6b-40f304e0a122
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[106/167] c202b243-1aa1-4b16-bc9a-b36241f3b1e3
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[107/167] bdb26abd-f4ba-4ea3-8862-c2340e7a4f55
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[108/167] bd6b68e8-179a-42f0-9bde-b4fdf7d34dd1
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[109/167] b165f033-9dec-468a-9248-802fc6902a74
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[110/167] a84face4-eb30-4f43-994f-c6a13a097808
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[111/167] a56f1a6b-071c-4780-9832-33ca9b8fb391
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[112/167] 9ec335f2-420a-45a8-b45a-1ab646e50041
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[113/167] 98113e7e-f586-4065-a26a-60aa702f8d1c
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[114/167] 949ec7fc-ac54-47c9-bb6f-ee9e67688cce
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[115/167] 8f48c031-6692-4c82-b6c2-e4ad35cbc0aa
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[116/167] 8e10f1c4-8e98-41e5-b65f-8cd89a887122
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[117/167] 8ba5453f-7fab-4702-a3a6-4021b1f31a7a
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[118/167] 7a0a8891-9a22-4549-a55b-c2aca23c3a2a
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[119/167] 700aed19-c16e-4ba8-9191-07da098a8626
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[120/167] 6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[121/167] 6538ce1b-7949-405f-b01c-a2c3e876baee
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[122/167] 639ffc23-14db-4060-9027-3c90314200f8
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[123/167] 599504e5-d4ad-45bd-9128-823faf0fb9c9
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[124/167] 59923449-e303-43e6-9e63-03ef92f5ebd1
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[125/167] 56c33a38-2732-4e53-a9c1-1bc61eda9a99
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[126/167] 531c9543-9093-45ed-93ac-ebc5815bfb8a
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[127/167] 421e5f54-5de7-425f-b399-34ead0651ce1
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[128/167] 40e79234-65e8-45e9-b555-5c663154a108
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[129/167] 3f31f8ce-bbf6-4df8-8203-aa240ed03026
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[130/167] 3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[131/167] 35090826-f636-40c1-a3ef-4466beeab9f8
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[132/167] 27d91086-cfe3-4e33-9282-bd1246e5ce8e
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[133/167] 2190bd4d-3be0-4bf7-8ca8-8d6f71228936
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[134/167] 2185eb07-22e2-4209-b3c8-7111afc6aa90
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[135/167] 0d7f4c06-a6bd-47d2-a42b-3a7196704f77
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[136/167] 04a23820-ffa8-4be5-9f65-64db15631d1e
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[137/167] 0325478a-9b52-45b5-b40a-2e2ab0d72eb1
+  Siletti (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 0 cells after server-side filters
+  SUCCESS: 0 normal cells
+
+[138/167] e4ddac12-f48f-4455-8e8d-c2a48a683437
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 67,475 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   67,475 cells
+    After  :   67,475 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 67,475 normal cells
+
+[139/167] d01c9dff-abd1-4825-bf30-2eb2ba74597e
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 49,996 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   49,996 cells
+    After  :   49,996 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 49,996 normal cells
+
+[140/167] c3aa4f95-7a18-4a7d-8dd8-ca324d714363
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 258,604 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  258,604 cells
+    After  :  258,604 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 258,604 normal cells
+
+[141/167] be401db3-d732-408a-b0c4-71af0458b8ab
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 135,462 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  135,462 cells
+    After  :  135,462 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 135,462 normal cells
+
+[142/167] a5d5c529-8a1f-40b5-bda3-35208970070d
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 18,507 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   18,507 cells
+    After  :   18,507 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 18,507 normal cells
+
+[143/167] 9c63201d-bfd9-41a8-bbbc-18d947556f3d
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 90,190 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   90,190 cells
+    After  :   90,190 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 90,190 normal cells
+
+[144/167] 93cb76aa-a84b-4a92-8e6c-66a914e26d4c
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 153,159 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  153,159 cells
+    After  :  153,159 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 153,159 normal cells
+
+[145/167] 716a4acc-919e-4326-9672-ebe06ede84e6
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 113,339 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  113,339 cells
+    After  :  113,339 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 113,339 normal cells
+
+[146/167] 5bdc423a-59e6-457d-aa01-debd2c9c564f
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 114,605 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  114,605 cells
+    After  :  114,605 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 114,605 normal cells
+
+[147/167] 5346f9c6-755e-4336-94cc-38706ec00c2f
+  Jorstad (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 50,300 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   50,300 cells
+    After  :   50,300 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 50,300 normal cells
+
+[148/167] aa369999-a034-4ad9-b459-8a93c86ea77b
+  Wang (2025.0) - Nature
+    Querying Census (server-side filtered)...
+    Census returned 143,400 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  143,400 cells
+    After  :        0 cells
+    Removed:  143,400 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[149/167] ae4f8ddd-cac9-4172-9681-2175da462f2e
+  Bhaduri (2021.0) - Nature
+    Querying Census (server-side filtered)...
+    Census returned 392,471 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  392,471 cells
+    After  :        0 cells
+    Removed:  392,471 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[150/167] e2a00644-0a48-4815-ae87-d562045114f5
+  Takeuchi (2025.0) - Brain
+    Querying Census (server-side filtered)...
+    Census returned 33,508 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   33,508 cells
+    After  :   33,508 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 33,508 normal cells
+
+[151/167] d3cb449b-c2b1-4b50-a7f1-21203535fe61
+  N. M. (2024.0) - Sci Data
+    Querying Census (server-side filtered)...
+    Census returned 209,271 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :  209,271 cells
+    After  :  209,271 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 209,271 normal cells
+
+[152/167] ea7b95cf-1967-4431-9ee8-ec85ff793360
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 359 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      359 cells
+    After  :        0 cells
+    Removed:      359 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[153/167] ea251de5-c764-4f7c-add0-8141b1061faf
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 234 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      234 cells
+    After  :        0 cells
+    Removed:      234 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[154/167] e59a4394-80db-42e4-85e6-8f0e59b81f42
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 17,106 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   17,106 cells
+    After  :        0 cells
+    Removed:   17,106 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[155/167] b15ec84b-46e9-4678-b511-a0f81f9b545b
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 9,925 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    9,925 cells
+    After  :        0 cells
+    Removed:    9,925 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[156/167] 91b2327d-e3f3-4f63-b446-20774d20fc33
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 388 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      388 cells
+    After  :        0 cells
+    Removed:      388 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[157/167] 8775a6c6-b960-43ae-9f76-45c4acda3621
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 336 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :      336 cells
+    After  :        0 cells
+    Removed:      336 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[158/167] 675873e1-3f1d-4bd5-9fad-3ce8a5ad98e1
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 66,137 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   66,137 cells
+    After  :        0 cells
+    Removed:   66,137 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[159/167] 6701d782-76f2-40e6-82f1-495350dd9a63
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 16 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :       16 cells
+    After  :        0 cells
+    Removed:       16 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[160/167] 598100f7-01da-4de4-998a-05917fd6c446
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 6,001 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    6,001 cells
+    After  :        0 cells
+    Removed:    6,001 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[161/167] 48c4a72a-bc2a-4d7c-9146-a7c2ab1d7d9f
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 6,068 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    6,068 cells
+    After  :        0 cells
+    Removed:    6,068 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[162/167] 1b52ee22-c71a-4a0f-a4d2-c1be36d0b82a
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 27,037 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   27,037 cells
+    After  :        0 cells
+    Removed:   27,037 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[163/167] 13149914-ea03-4f01-8bf6-b793b667127b
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 67,413 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   67,413 cells
+    After  :        0 cells
+    Removed:   67,413 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[164/167] 059022cf-885a-4ef8-944b-d9e5381aa1c6
+  Braun (2023.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 9,537 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :    9,537 cells
+    After  :        0 cells
+    Removed:    9,537 cells  (100.0%)
+  SUCCESS: 0 normal cells
+
+[165/167] 56a4bc14-9407-45fd-8786-f7f6fc87c9dd
+  Clarence (2025.0) - Nat Genet
+    Querying Census (server-side filtered)...
+    Census returned 59,979 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   59,979 cells
+    After  :   20,601 cells
+    Removed:   39,378 cells  (65.7%)
+  SUCCESS: 20,601 normal cells
+
+[166/167] a24ce10f-5a87-4e1f-a34a-f4fe5fc84052
+  Tran (2021.0) - Neuron
+    Querying Census (server-side filtered)...
+    Census returned 15,669 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   15,669 cells
+    After  :   15,669 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 15,669 normal cells
+
+[167/167] 07dd8c34-4625-480a-8ee4-273a06c3082b
+  Tran (2021.0) - Neuron
+    Querying Census (server-side filtered)...
+    Census returned 11,202 cells (tissue+disease filtered)
+  [age filter (HsapDv IDs)]
+    Before :   11,202 cells
+    After  :   11,202 cells
+    Removed:        0 cells  (0.0%)
+  SUCCESS: 11,202 normal cells
+
+======================================================================
+  Resumed (already done) : 0
+  Newly processed        : 167
+  Failed                 : 0
+  Skipped (no ID)        : 0
+
+======================================================================
+Finished: 2026-07-31 15:40:49
+Output  : data/homo_sapiens_neocortext_harvester_with_normal_counts.csv
+======================================================================
