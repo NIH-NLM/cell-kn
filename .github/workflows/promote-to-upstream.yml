@@ -74,11 +74,15 @@ jobs:
             echo "::warning::Fork is $BEHIND commits behind upstream — the promoted PR may have conflicts requiring manual resolution."
           fi
 
-          EXISTING=$(gh api -X GET "repos/$UPSTREAM/pulls" \
-            -F head=Springbok-LLC:main \
-            -F base=main \
-            -F state=open \
-            --jq '.[0].number // empty')
+          find_existing_pr() {
+            gh api -X GET "repos/$UPSTREAM/pulls" \
+              -F head=Springbok-LLC:main \
+              -F base=main \
+              -F state=open \
+              --jq '.[0].number // empty'
+          }
+
+          EXISTING=$(find_existing_pr)
 
           if [ -n "$EXISTING" ]; then
             echo "Upstream PR already open: #$EXISTING ($AHEAD ahead, $BEHIND behind). Fork pushes will append to it automatically."
@@ -104,6 +108,17 @@ jobs:
               echo "Created upstream PR #$PR_NUM."
               exit 0
             fi
+            # The create can succeed server-side and still report an error to
+            # the client (a 502 from the API gateway did exactly this on run
+            # 31621460361, and the retries then failed 422 "already exists",
+            # failing the job over a PR that had in fact been opened). Re-check
+            # before retrying so a phantom failure doesn't fail the job.
+            PR_NUM=$(find_existing_pr || true)
+            if [ -n "$PR_NUM" ]; then
+              echo "Upstream PR #$PR_NUM is open — attempt $i reported an error but the PR exists. Nothing more to do."
+              exit 0
+            fi
+            if [ "$i" = 3 ]; then break; fi
             echo "PR creation attempt $i failed; sleeping $((i * 10))s before retry."
             sleep $((i * 10))
           done
