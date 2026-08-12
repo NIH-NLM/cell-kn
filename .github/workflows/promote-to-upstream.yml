@@ -39,9 +39,30 @@ jobs:
           # ready. No fast-forward via the Refs API either, since that would
           # bypass the approval gate entirely.
 
-          COMPARE=$(gh api "repos/$UPSTREAM/compare/main...Springbok-LLC:main")
-          AHEAD=$(echo "$COMPARE" | jq -r '.ahead_by')
-          BEHIND=$(echo "$COMPARE" | jq -r '.behind_by')
+          # Don't use the compare API (repos/$UPSTREAM/compare/main...fork:main)
+          # for this: it always builds a diff, and since this repo is large, this can fail with
+          # "Sorry, this diff is taking too long to generate" (HTTP 422). Count
+          # the divergence with git instead — a commits-only partial fetch
+          # (--filter=tree:0) of the two tips takes a couple of seconds and a
+          # few hundred KB, and needs no working tree.
+          rm -rf divergence.git
+          trap 'rm -rf divergence.git' EXIT
+          git init --bare -q divergence.git
+          AUTH_HEADER="Authorization: Basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 | tr -d '\n')"
+          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.extraHeader GIT_CONFIG_VALUE_0="$AUTH_HEADER" \
+            git -C divergence.git fetch -q --filter=tree:0 --no-tags \
+              "https://github.com/$FORK.git" main:refs/remotes/fork/main
+          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.extraHeader GIT_CONFIG_VALUE_0="$AUTH_HEADER" \
+            git -C divergence.git fetch -q --filter=tree:0 --no-tags \
+              "https://github.com/$UPSTREAM.git" main:refs/remotes/upstream/main
+
+          # rev-list --left-right --count prints "<left> <right>": commits on
+          # upstream/main only (behind), then commits on fork/main only (ahead).
+          COUNTS=$(git -C divergence.git rev-list --left-right --count \
+            refs/remotes/upstream/main...refs/remotes/fork/main)
+          set -- $COUNTS
+          BEHIND=$1
+          AHEAD=$2
           echo "Compare upstream/main...fork/main: ahead_by=$AHEAD, behind_by=$BEHIND"
 
           if [ "$AHEAD" = "0" ]; then
