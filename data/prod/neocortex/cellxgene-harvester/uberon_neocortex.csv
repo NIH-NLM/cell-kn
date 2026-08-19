@@ -1,0 +1,102 @@
+obo_id,label,level
+UBERON:0001950,neocortex,root
+UBERON:0000451,prefrontal cortex,descendant
+UBERON:0001384,primary motor cortex,descendant
+UBERON:0001870,frontal cortex,descendant
+UBERON:0002301,layer of neocortex,descendant
+UBERON:0002624,orbital part of inferior frontal gyrus,descendant
+UBERON:0002629,triangular part of inferior frontal gyrus,descendant
+UBERON:0002661,superior frontal gyrus,descendant
+UBERON:0002669,anterior horizontal limb of lateral sulcus,descendant
+UBERON:0002670,anterior ascending limb of lateral sulcus,descendant
+UBERON:0002672,anterior subcentral sulcus,descendant
+UBERON:0002675,diagonal sulcus,descendant
+UBERON:0002702,middle frontal gyrus,descendant
+UBERON:0002703,precentral gyrus,descendant
+UBERON:0002756,anterior cingulate gyrus,descendant
+UBERON:0002764,inferior precentral sulcus,descendant
+UBERON:0002799,fronto-orbital sulcus,descendant
+UBERON:0002810,right frontal lobe,descendant
+UBERON:0002811,left frontal lobe,descendant
+UBERON:0002980,opercular part of inferior frontal gyrus,descendant
+UBERON:0002998,inferior frontal gyrus,descendant
+UBERON:0003027,cingulate cortex,descendant
+UBERON:0004167,orbitofrontal cortex,descendant
+UBERON:0005390,cortical layer I,descendant
+UBERON:0005391,cortical layer II,descendant
+UBERON:0005392,cortical layer III,descendant
+UBERON:0005393,cortical layer IV,descendant
+UBERON:0005394,cortical layer V,descendant
+UBERON:0005395,cortical layer VI,descendant
+UBERON:0006094,superior parietal cortex,descendant
+UBERON:0006101,Brodmann (1909) area 24,descendant
+UBERON:0006114,lateral occipital cortex,descendant
+UBERON:0006445,caudal middle frontal gyrus,descendant
+UBERON:0006446,rostral middle frontal gyrus,descendant
+UBERON:0006476,Brodmann (1909) area 33,descendant
+UBERON:0006482,Brodmann (1909) area 45,descendant
+UBERON:0008933,primary somatosensory cortex,descendant
+UBERON:0009834,dorsolateral prefrontal cortex,descendant
+UBERON:0009835,anterior cingulate cortex,descendant
+UBERON:0009836,fronto-orbital gyrus,descendant
+UBERON:0010415,barrel cortex,descendant
+UBERON:0013531,retrosplenial region,descendant
+UBERON:0013535,Brodmann (1909) area 4,descendant
+UBERON:0013540,Brodmann (1909) area 9,descendant
+UBERON:0013541,Brodmann (1909) area 10,descendant
+UBERON:0013545,Brodmann (1909) area 14,descendant
+UBERON:0013552,Brodmann (1909) area 21,descendant
+UBERON:0014618,middle frontal sulcus,descendant
+UBERON:0014639,frontal sulcus,descendant
+UBERON:0014918,retrosplenial granular cortex,descendant
+UBERON:0014951,proisocortex,descendant
+UBERON:0015593,frontal gyrus,descendant
+UBERON:0016529,cortex of cerebral lobe,descendant
+UBERON:0016530,parietal cortex,descendant
+UBERON:0016538,temporal cortex,descendant
+UBERON:0016540,occipital cortex,descendant
+UBERON:0016542,limbic cortex,descendant
+UBERON:0022252,precentral sulcus,descendant
+UBERON:0022315,primary motor cortex layer 5,descendant
+UBERON:0022316,primary motor cortex layer 6,descendant
+UBERON:0022352,medial orbital frontal cortex,descendant
+UBERON:0022353,posterior cingulate cortex,descendant
+UBERON:0022367,inferior lateral occipital cortex,descendant
+UBERON:0022368,superior lateral occipital cortex,descendant
+UBERON:0022428,cingulate cortex cingulum,descendant
+UBERON:0022438,rostral anterior cingulate cortex,descendant
+UBERON:0022716,lateral orbital frontal cortex,descendant
+UBERON:0023859,primary somatosensory cortex layer 6,descendant
+UBERON:0027061,isthmus of cingulate cortex,descendant
+UBERON:0028715,caudal anterior cingulate cortex,descendant
+UBERON:0034888,primary motor cortex layer 1,descendant
+UBERON:0034889,posterior parietal cortex,descendant
+UBERON:0034891,insular cortex,descendant
+UBERON:0034892,granular insular cortex,descendant
+UBERON:0034893,agranular insular cortex,descendant
+UBERON:0035013,temporal cortex association area,descendant
+UBERON:0035153,dorsolateral prefrontal cortex layer 1,descendant
+UBERON:0035154,dorsolateral prefrontal cortex layer 2,descendant
+UBERON:0035155,dorsolateral prefrontal cortex layer 3,descendant
+UBERON:0035156,dorsolateral prefrontal cortex layer 4,descendant
+UBERON:0035157,dorsolateral prefrontal cortex layer 5,descendant
+UBERON:0035158,dorsolateral prefrontal cortex layer 6,descendant
+UBERON:0035872,primary somatosensory area barrel field layer 5,descendant
+UBERON:0035873,primary somatosensory area barrel field layer 1,descendant
+UBERON:0035874,primary somatosensory area barrel field layer 2/3,descendant
+UBERON:0035875,primary somatosensory area barrel field layer 6b,descendant
+UBERON:0035876,primary somatosensory area barrel field layer 6a,descendant
+UBERON:0035877,primary somatosensory area barrel field layer 4,descendant
+UBERON:0035886,posterior parietal association areas,descendant
+UBERON:0035912,rostrolateral visual area,descendant
+UBERON:0035920,"rostrolateral area, layer 5",descendant
+UBERON:4450000,medial prefrontal cortex,descendant
+UBERON:8440000,cortical layer II/III,descendant
+UBERON:8440001,cortical layer IV/V,descendant
+UBERON:8440002,cortical layer V/VI,descendant
+UBERON:8440003,cortical layer VIb,descendant
+UBERON:8440004,laminar subdivision of the cortex,descendant
+UBERON:8440032,prelimbic area,descendant
+UBERON:8440033,infralimbic area,descendant
+UBERON:8440044,upper layers of the cortex,descendant
+UBERON:8440051,lower layers of the cortex,descendant

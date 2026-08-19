@@ -1,0 +1,623 @@
+{
+  "queries": [
+    "neocortex"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0001950",
+      "label": "neocortex",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0001950",
+    "UBERON:0000451",
+    "UBERON:0001384",
+    "UBERON:0001870",
+    "UBERON:0002301",
+    "UBERON:0002624",
+    "UBERON:0002629",
+    "UBERON:0002661",
+    "UBERON:0002669",
+    "UBERON:0002670",
+    "UBERON:0002672",
+    "UBERON:0002675",
+    "UBERON:0002702",
+    "UBERON:0002703",
+    "UBERON:0002756",
+    "UBERON:0002764",
+    "UBERON:0002799",
+    "UBERON:0002810",
+    "UBERON:0002811",
+    "UBERON:0002980",
+    "UBERON:0002998",
+    "UBERON:0003027",
+    "UBERON:0004167",
+    "UBERON:0005390",
+    "UBERON:0005391",
+    "UBERON:0005392",
+    "UBERON:0005393",
+    "UBERON:0005394",
+    "UBERON:0005395",
+    "UBERON:0006094",
+    "UBERON:0006101",
+    "UBERON:0006114",
+    "UBERON:0006445",
+    "UBERON:0006446",
+    "UBERON:0006476",
+    "UBERON:0006482",
+    "UBERON:0008933",
+    "UBERON:0009834",
+    "UBERON:0009835",
+    "UBERON:0009836",
+    "UBERON:0010415",
+    "UBERON:0013531",
+    "UBERON:0013535",
+    "UBERON:0013540",
+    "UBERON:0013541",
+    "UBERON:0013545",
+    "UBERON:0013552",
+    "UBERON:0014618",
+    "UBERON:0014639",
+    "UBERON:0014918",
+    "UBERON:0014951",
+    "UBERON:0015593",
+    "UBERON:0016529",
+    "UBERON:0016530",
+    "UBERON:0016538",
+    "UBERON:0016540",
+    "UBERON:0016542",
+    "UBERON:0022252",
+    "UBERON:0022315",
+    "UBERON:0022316",
+    "UBERON:0022352",
+    "UBERON:0022353",
+    "UBERON:0022367",
+    "UBERON:0022368",
+    "UBERON:0022428",
+    "UBERON:0022438",
+    "UBERON:0022716",
+    "UBERON:0023859",
+    "UBERON:0027061",
+    "UBERON:0028715",
+    "UBERON:0034888",
+    "UBERON:0034889",
+    "UBERON:0034891",
+    "UBERON:0034892",
+    "UBERON:0034893",
+    "UBERON:0035013",
+    "UBERON:0035153",
+    "UBERON:0035154",
+    "UBERON:0035155",
+    "UBERON:0035156",
+    "UBERON:0035157",
+    "UBERON:0035158",
+    "UBERON:0035872",
+    "UBERON:0035873",
+    "UBERON:0035874",
+    "UBERON:0035875",
+    "UBERON:0035876",
+    "UBERON:0035877",
+    "UBERON:0035886",
+    "UBERON:0035912",
+    "UBERON:0035920",
+    "UBERON:4450000",
+    "UBERON:8440000",
+    "UBERON:8440001",
+    "UBERON:8440002",
+    "UBERON:8440003",
+    "UBERON:8440004",
+    "UBERON:8440032",
+    "UBERON:8440033",
+    "UBERON:8440044",
+    "UBERON:8440051"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0001950",
+      "label": "neocortex",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0000451",
+      "label": "prefrontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001384",
+      "label": "primary motor cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001870",
+      "label": "frontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002301",
+      "label": "layer of neocortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002624",
+      "label": "orbital part of inferior frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002629",
+      "label": "triangular part of inferior frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002661",
+      "label": "superior frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002669",
+      "label": "anterior horizontal limb of lateral sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002670",
+      "label": "anterior ascending limb of lateral sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002672",
+      "label": "anterior subcentral sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002675",
+      "label": "diagonal sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002702",
+      "label": "middle frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002703",
+      "label": "precentral gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002756",
+      "label": "anterior cingulate gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002764",
+      "label": "inferior precentral sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002799",
+      "label": "fronto-orbital sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002810",
+      "label": "right frontal lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002811",
+      "label": "left frontal lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002980",
+      "label": "opercular part of inferior frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002998",
+      "label": "inferior frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003027",
+      "label": "cingulate cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004167",
+      "label": "orbitofrontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005390",
+      "label": "cortical layer I",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005391",
+      "label": "cortical layer II",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005392",
+      "label": "cortical layer III",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005393",
+      "label": "cortical layer IV",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005394",
+      "label": "cortical layer V",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005395",
+      "label": "cortical layer VI",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006094",
+      "label": "superior parietal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006101",
+      "label": "Brodmann (1909) area 24",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006114",
+      "label": "lateral occipital cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006445",
+      "label": "caudal middle frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006446",
+      "label": "rostral middle frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006476",
+      "label": "Brodmann (1909) area 33",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006482",
+      "label": "Brodmann (1909) area 45",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008933",
+      "label": "primary somatosensory cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009834",
+      "label": "dorsolateral prefrontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009835",
+      "label": "anterior cingulate cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009836",
+      "label": "fronto-orbital gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010415",
+      "label": "barrel cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013531",
+      "label": "retrosplenial region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013535",
+      "label": "Brodmann (1909) area 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013540",
+      "label": "Brodmann (1909) area 9",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013541",
+      "label": "Brodmann (1909) area 10",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013545",
+      "label": "Brodmann (1909) area 14",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013552",
+      "label": "Brodmann (1909) area 21",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014618",
+      "label": "middle frontal sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014639",
+      "label": "frontal sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014918",
+      "label": "retrosplenial granular cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014951",
+      "label": "proisocortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015593",
+      "label": "frontal gyrus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016529",
+      "label": "cortex of cerebral lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016530",
+      "label": "parietal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016538",
+      "label": "temporal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016540",
+      "label": "occipital cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016542",
+      "label": "limbic cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022252",
+      "label": "precentral sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022315",
+      "label": "primary motor cortex layer 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022316",
+      "label": "primary motor cortex layer 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022352",
+      "label": "medial orbital frontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022353",
+      "label": "posterior cingulate cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022367",
+      "label": "inferior lateral occipital cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022368",
+      "label": "superior lateral occipital cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022428",
+      "label": "cingulate cortex cingulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022438",
+      "label": "rostral anterior cingulate cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022716",
+      "label": "lateral orbital frontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0023859",
+      "label": "primary somatosensory cortex layer 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0027061",
+      "label": "isthmus of cingulate cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0028715",
+      "label": "caudal anterior cingulate cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034888",
+      "label": "primary motor cortex layer 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034889",
+      "label": "posterior parietal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034891",
+      "label": "insular cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034892",
+      "label": "granular insular cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034893",
+      "label": "agranular insular cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035013",
+      "label": "temporal cortex association area",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035153",
+      "label": "dorsolateral prefrontal cortex layer 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035154",
+      "label": "dorsolateral prefrontal cortex layer 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035155",
+      "label": "dorsolateral prefrontal cortex layer 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035156",
+      "label": "dorsolateral prefrontal cortex layer 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035157",
+      "label": "dorsolateral prefrontal cortex layer 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035158",
+      "label": "dorsolateral prefrontal cortex layer 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035872",
+      "label": "primary somatosensory area barrel field layer 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035873",
+      "label": "primary somatosensory area barrel field layer 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035874",
+      "label": "primary somatosensory area barrel field layer 2/3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035875",
+      "label": "primary somatosensory area barrel field layer 6b",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035876",
+      "label": "primary somatosensory area barrel field layer 6a",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035877",
+      "label": "primary somatosensory area barrel field layer 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035886",
+      "label": "posterior parietal association areas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035912",
+      "label": "rostrolateral visual area",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035920",
+      "label": "rostrolateral area, layer 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4450000",
+      "label": "medial prefrontal cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440000",
+      "label": "cortical layer II/III",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440001",
+      "label": "cortical layer IV/V",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440002",
+      "label": "cortical layer V/VI",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440003",
+      "label": "cortical layer VIb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440004",
+      "label": "laminar subdivision of the cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440032",
+      "label": "prelimbic area",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440033",
+      "label": "infralimbic area",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440044",
+      "label": "upper layers of the cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8440051",
+      "label": "lower layers of the cortex",
+      "level": "descendant"
+    }
+  ],
+  "total": 101
+}
