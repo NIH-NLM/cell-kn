@@ -1,31 +1,33 @@
 # Fork Divergence Summary: `Springbok-LLC/nlm-ckn` vs `NIH-NLM/nlm-ckn`
 
-_Generated 2026-07-17, revised 2026-08-05 after merging upstream PRs #261, #265, #267 and the
-retina Li full-dataset publish. Compares `origin/main` (Springbok-LLC fork) against `upstream/main`
-(NIH-NLM)._
+_Generated 2026-07-17, revised 2026-08-19 after the respiratory-system UBERON root
+reclassification. Compares `origin/main` (Springbok-LLC fork) against `upstream/main` (NIH-NLM)._
 
 ## Headline
 
 The fork has **not** structurally diverged. `origin/main` contains all of `upstream/main`'s
-history (0 commits behind) and sits **58 commits ahead** — 28 functional commits plus 30 merge
-commits from regular upstream syncs (most recently the 2026-08-05 retina Li publish). The merge
-base is current (`bded3d4c`, 2026-08-05).
+history (0 commits behind) and sits **64 commits ahead** — 31 functional commits plus 33 merge
+commits from regular upstream syncs. The merge base is current (`ec287fb3`, 2026-08-05).
 
 **Nearly every divergent change is confined to `data/prod/`.** The exceptions are
-`.github/pull_request_template.md` (added 2026-07-11), this file, and the cell-count reconciliation
+`.github/pull_request_template.md` (added 2026-07-11), this file, the cell-count reconciliation
 analysis (`CELL_COUNT_RECONCILIATION.md`, `cell_count_reconciliation.csv`,
-`tools/reconcile_cell_counts.py`). Otherwise no code, workflow, CI, or tooling differs on `main`:
+`tools/reconcile_cell_counts.py`), and three CI workflow commits from 2026-08-11/12 (`docs.yml`,
+`package-prod-data.yml`, `promote-to-upstream.yml`; see §10). Otherwise no code or tooling differs
+on `main`:
 
 ```
-262 files changed, 1789093 insertions(+), 2188708 deletions(-)
-  161 deleted   10 modified   91 added
-  257 under data/prod/  +  5 process and analysis files
+257 files changed, 1751 insertions(+), 2186140 deletions(-)
+  151 deleted   15 modified   11 added   80 renamed
+  249 under data/prod/  +  8 process, analysis and workflow files
 ```
 
-The line counts are dominated by one 351 MB duplicate results folder deleted on each side of a
-rename (see §3); the curation surface is much smaller than the raw numbers suggest.
+The line counts are almost entirely deletions, and 2,182,400 of the 2,186,140 come from the single
+superseded retina Li subset run (`results/2026-aug-01-a56002/`, see §3 and §5) — four SVG plots and
+one per-cell silhouette CSV account for most of it. Insertions total 1,751. The curation surface is
+much smaller than the raw numbers suggest.
 
-So this is a *data-hygiene* divergence (plus process files), not an architectural one.
+So this is a *data-hygiene* divergence (plus process and CI files), not an architectural one.
 
 ## The one point of real friction
 
@@ -33,8 +35,8 @@ Upstream keeps **reintroducing files the fork deletes.** Concretely:
 
 - The fork removed all **non-reference `cluster_cid_mapping` files** (placeholder copies under
   `results/<dataset>/` with a blank `manual_mapped_cid`).
-- **Today: fork has 0, upstream still has 81** of these in `results/` (verified against current
-  `origin/main` and `upstream/main`).
+- **Today: fork has 0, upstream still has 82** of these in `results/` (verified 2026-08-19 against
+  `origin/main` and `upstream/main` at `ec287fb3`). Both sides carry the same 11 `reference/` ones.
 - They keep coming back. The PR #32 upstream merge included a *revert* of an upstream
   "Remove redundant results" change, which resurfaced 9 under `heart_plus_pericardium/`; the fork
   had to re-delete them (commit `71b44807`). Upstream PR #261 then shipped an 82nd for retina Li,
@@ -46,9 +48,9 @@ files should exist at all. If upstream agrees they're redundant, the fork's dele
 adopted upstream so each sync stops re-litigating them. Both sides agree on the 11 `reference/`
 mapping files — those are the canonical ones.
 
-## The 28 functional changes, grouped
+## The functional changes, grouped
 
-**0. Process files** (`93c0ef3c`, `760bad07`) — the only non-`data/prod/` changes
+**0. Process files** (`93c0ef3c`, `760bad07`) — see also §10 for the CI workflow changes
 - Added `.github/pull_request_template.md` with a `Closes #` line (auto-closes the linked issue on
   merge, moving the board card to Done) plus "What & why" / "Notes for review" sections.
 - Added this file (`FORK_DIVERGENCE.md`), the running record of what the fork changes and why.
@@ -161,6 +163,64 @@ as a repo-wide change, not a fork-local one.
   `filtered_cell_count` across every organ. See that file; two findings are upstream-facing and
   appear as talking points below.
 
+**9. UBERON root/descendant classification — respiratory system** (`523659f3`) — 2026-08-19
+- The respiratory-system harvester is the only one of the ten organs run with **two** UBERON
+  queries (`respiratory system`, `nose`); every other organ has a single query. Upstream's output
+  records both as roots, so `uberon_respiratory_system.{csv,json}` carries `UBERON:0000004` (nose)
+  at `level = root` and lists two entries in `root_terms`.
+- The fork reclassifies nose as a **descendant** of `UBERON:0001004` (respiratory system):
+  `root_terms` drops to the single respiratory-system entry, and the nose row's `level` changes
+  from `root` to `descendant` in both files. This matches UBERON, where nose is part of the
+  respiratory system, and makes all ten organ files single-rooted.
+- **No terms are added or removed.** The `obo_ids` list, `terms` list and `total` (660) are
+  unchanged, as is the CSV's row set; the entire diff is one CSV field, five deleted JSON lines,
+  one JSON field, and a trailing newline. The nose subtree was already present in upstream's
+  output, so nothing downstream of the term list changes.
+- This will be reintroduced on the next harvester run unless the query configuration or the
+  harvester's root-assignment logic is changed upstream.
+
+**10. CI workflow changes** (`c01fec8b`, `00ca7a55`, `651ea296`) — 2026-08-11/12
+
+The only divergence outside `data/prod/` and the process/analysis files. All three modify workflows
+that already exist upstream; none adds or removes a workflow file.
+
+*a. `docs.yml` — gate GitHub Pages to the upstream* (`c01fec8b`)
+- The `Setup Pages` and `Upload artifact` steps and the whole `deploy` job now carry
+  `if: github.repository_owner == 'NIH-NLM'`. `configure-pages` hits the Pages REST API, which
+  404s on a fork that has Pages disabled, so every push to fork `main` failed the docs run.
+- **Upstream behavior is unchanged** — NIH-NLM still builds and publishes the site. This is purely
+  additive gating and is the safest of the three to adopt upstream.
+
+*b. `package-prod-data.yml` — drop the per-author "small" packages* (`c01fec8b`)
+- Removes the `discover-authors` and `package-small` jobs (~55 lines). `discover-authors` scanned
+  every `*master_dataset_summary.csv` for distinct `first_author` values; `package-small` fanned out
+  over that matrix, tarring each `data/prod` directory matching an author name with `.html`, `.svg`
+  and `.pkl` excluded, and attaching each tarball to the release.
+- Only the single full `prod-data-<tag>.tar.gz` remains. The workflow fires on `release: published`.
+- **This is the one with real upstream consequence.** Unlike (a) it is not gated by owner, so
+  adopting it means upstream releases stop carrying per-author tarballs. Worth confirming nobody
+  downstream consumes them before this is upstreamed.
+
+*c. Action version bumps* (`c01fec8b`) — `checkout` v4→v7, `setup-python` v5→v7, `configure-pages`
+v4→v6, `upload-pages-artifact` v3→v5, `deploy-pages` v4→v5, `softprops/action-gh-release` v2→v3,
+to clear a Node 20 deprecation warning.
+
+*d. `promote-to-upstream.yml` — two robustness fixes* (`00ca7a55`, `651ea296`)
+
+This workflow exists in both repos but is gated `if: github.repository_owner == 'Springbok-LLC'`, so
+it is inert upstream and only ever runs on the fork. Both fixes therefore change fork behavior only,
+even though the file itself now differs in the two repositories.
+- `00ca7a55` replaces the GitHub compare API (`repos/NIH-NLM/nlm-ckn/compare/main...Springbok-LLC:main`)
+  with a local divergence count. The compare endpoint always materializes a diff and, on a repo
+  carrying `data/prod`, returns HTTP 422 "Sorry, this diff is taking too long to generate". The
+  replacement does a bare `git init` plus two treeless partial fetches (`--filter=tree:0 --no-tags`)
+  of the two tips and reads `git rev-list --left-right --count` — a few hundred KB, no working tree.
+- `651ea296` makes PR creation idempotent. A 502 from the API gateway (run `31621460361`) let a
+  create succeed server-side while reporting failure to the client; the retries then hit 422
+  "already exists" and failed the job over a PR that had in fact been opened. The lookup is factored
+  into a `find_existing_pr()` helper and re-checked after a failed attempt, exiting 0 if the PR
+  exists; the retry loop also breaks on attempt 3 rather than sleeping before a retry it won't make.
+
 ## Suggested talking points for the maintainer
 
 1. **Adopt the reference-mapping schema normalization upstream** so all 11 files share one schema
@@ -187,7 +247,19 @@ as a repo-wide change, not a fork-local one.
    convention.
 9. **Consider adopting the PR template upstream** so contributions across both repos use the same
    `Closes #` convention.
-10. **Raise Git LFS before more organs land.** No `.gitattributes` exists anywhere. The retina Li
+10. **Make the respiratory-system harvester single-rooted at the source.** The `nose` query is
+   recorded as a second root, but nose is part of the respiratory system in UBERON and every other
+   organ file has exactly one root. Either drop the redundant query or have the harvester classify
+   a query term that resolves under an existing root as a descendant — otherwise §9 has to be
+   re-applied after every run.
+11. **Upstream the `docs.yml` Pages gate** (§10a). It is a no-op on NIH-NLM and stops the docs
+   workflow failing on every fork push — the cheapest of the CI items to settle.
+12. **Decide whether per-author release tarballs are still wanted** (§10b). The fork has removed
+   the `package-small` matrix; adopting that upstream changes what a release ships, so it needs a
+   deliberate call rather than a silent sync.
+13. **Upstream the two `promote-to-upstream.yml` fixes** (§10d). The workflow is inert on NIH-NLM,
+   so adopting them costs nothing there and keeps the two copies of the file from drifting.
+14. **Raise Git LFS before more organs land.** No `.gitattributes` exists anywhere. The retina Li
    publish alone shipped two 62 MB `.svg.tar.gz` files and four 3.7–7.4 MB pickles; `.pkl` is also
    version-fragile as an archival format. Cheaper to settle now than after the next ten datasets.
 
@@ -199,6 +271,10 @@ These are all upstreamable as PRs; nothing here is a hard fork.
 
 | Commit | Date | Summary |
 |---|---|---|
+| `523659f3` | 2026-08-19 | Make nose a respiratory system descendant |
+| `651ea296` | 2026-08-12 | promote-to-upstream: re-check for an existing PR before failing (#52) |
+| `00ca7a55` | 2026-08-12 | promote-to-upstream: count divergence with git, not the compare API (#49) |
+| `c01fec8b` | 2026-08-11 | Drop per-author packages; gate Pages to NIH-NLM; bump action versions (#48) |
 | `06a530ea` | 2026-08-05 | Add cell count reconciliation analysis and refresh for #265/#267 |
 | `b59dc212` | 2026-08-05 | Consolidate neocortext/ into neocortex/ |
 | `36f022cd` | 2026-08-05 | Re-token retina reference mapping to the 2026 dataset token |
